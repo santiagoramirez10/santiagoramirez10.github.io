@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Portafolio Santiago Ramírez, programador e ingeniero electricista en formación">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="../CSS/Estilos.css">
+        <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+        <script defer src="../JavaScript/app.js"></script>
+        <title>Mis proyectos-Santiago Ramírez P.</title>
+    </head>
+    <body>
+        <header class="menu">
+            <nav class="nav">
+                <a href="Index.html" class="logo nav-link">Santiago R. P.</a>
+                <button class="nav-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>            
+                <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="Sobre_mi.html">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="Mis_proyectos.html" >Mis proyectos</a></li>
+                <li class="nav-menu-item"><a href="Mundo_gamer.html">Mundo gamer</a></li>
+                <li class="nav-menu-item"><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <h1 class="titulopr">proyectos con programación y de electrónica</h1>
+        <div class="todos-los-contenedores">
+            <div class="contenedores-solos">
+                <a href="Semaforo.html">
+                    <h5 class="titulos-contenedores">Semáforo inteligente con Arduino</h5>
+                    <img src="../Imagenes/semaforo.png" alt="Imágen de un semáforo"/>
+                </a>
+                <p>Este es un proyecto en el que se utilizaron 3 LED para simular un semáforo 
+                tal y como se ve al salir a la calle pero en una escala mucho más pequeña; este 
+                semáforo cuenta con un sistema de alerta cuando va a cambiar de verde a 
+                naranjado para posteriormente estar en rojo.</p>
+            </div>
+            <div class="contenedores-solos">
+                <a href="Fotocelda.html">
+                    <h5 class="titulos-contenedores">Fotocelda con Arduino</h5>
+                    <img src="../Imagenes/fotocelda.png" alt="Imágen de una fotocelda"/>
+                </a>
+                <p>Este es un proyecto en el que se enciende 1 LED mediante la lectura de 
+                una fotocelda progrmada en Arduino; en el programa de Arduino podemos 
+                observar los cambios de voltaje cuando hay poca luz y cuando hay mucha, 
+                lo que nos permite hacer una calibración mediante 1 potenciómetro y así 
+                poder utilizar el proyecto sin importar el lugar en el que nos 
+                encontremos.</p>
+            </div>
+            <div class="contenedores-solos">
+                <a href="lm35.html">
+                    <h5 class="titulos-contenedores">Sensor de temperatura con Arduino</h5>
+                    <img src="../Imagenes/lm35.png" alt="Imágen de un sensor LM35"/>
+                </a>
+                <p>Este es un proyecto en el que se enciende 1 LED cuando el sensor de 
+                temperatura detecta una temperatura determinada; esta temperatura puede 
+                ser programada en Arduino para disminuir el umbral y así tener menos errores. 
+                Se puede cambiar el LED por 1 buzzer activo o pasivo para que suene en forma 
+                de alerta para incendios.</p>
+            </div>
+            <div class="contenedores-solos">
+                <a href="teclado4x4.html">
+                    <h5 class="titulos-contenedores">Teclado 4x4 con Arduino</h5>
+                    <img src="../Imagenes/teclado4x4.png" alt="Imágen de un teclado 4x4"/>
+                </a>
+                <p>Este es un proyecto en el que se programa un teclado 4x4 para que muestr 
+                en el monitor serial de Arduino la o las teclas presionadas.</p>
+            </div>
+            <div class="contenedores-solos">
+                <a href="displaylcd12x2.html">
+                    <h5 class="titulos-contenedores">Display LCD 16x2 con Arduino</h5>
+                    <img src="../Imagenes/displaylcd12x2.png" alt="Imágen de un display LCD 16x2"/>
+                </a>
+                <p>Este es un proyecto en el que se programa un display LCD 16X2 para que se muestra 
+                el mensaje "Hello World" y "Hola Mundo".</p>
+            </div>
+            <div class="contenedores-solos">
+                <a href="display7_1p.html">
+                    <h5 class="titulos-contenedores">Display 7 segmentos con Arduino</h5>
+                    <img src="../Imagenes/display7s1p.png" alt="Imágen de un display 7 segmentos"/>
+                </a>
+                <p>Este es un proyecto en el que se realiza el conteo de 0 a 9 utilizando el display 7 
+                segmentos. Se realiza el código en Arduino para mostrar los números con un tiempo de 
+                muestra de 1 segundo.</p>
+            </div>
+        </div>
+    </body>
+</html>

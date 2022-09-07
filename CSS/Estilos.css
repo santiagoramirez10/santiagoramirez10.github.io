@@ -24,11 +24,12 @@ p{
 /*Menu principal*/
   .menu {
     background-color: #000000;
-    height: 80px;
+    height: 70px;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    align-items: center;
   }
   .menu a{
     color: #FFFFFF;
@@ -128,19 +129,24 @@ p{
   }
 /**/
 .titulopr{
-    font-size: 35px;
-    margin-top: 8%;
+    font-size: 25px;
+    margin-top: 5%;
     margin-bottom: 0.5rem;
     text-align: center;
     color:#000000;
     font-weight: bold;    
 }
-.todos-los-contenedores{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 15px;
 
+
+
+.todos-los-contenedores{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+
+  width: 100%;
+  height: 100%;
 }
 .todos-los-contenedores img{
     height:300px;
@@ -151,13 +157,14 @@ p{
 .todos-los-contenedores p{
     color: #000000;
     text-align: justify;
-    margin: 5%;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
     font-size: 20px;
 }
 .titulos-contenedores{
    font-size: 25px;
-    margin: 5%;
-    margin-bottom: 0.5rem;
+    margin-bottom: 3%;
     text-align: center;
     color:#000000;
     font-weight: bold;
@@ -166,8 +173,7 @@ p{
     width: 400px;
     height: auto;
     float: left;
-    border: 5px dashed #000000;
-    margin: 2%;
+    margin: 1%;
 }
 .contenedores-solos a{
     float:left;

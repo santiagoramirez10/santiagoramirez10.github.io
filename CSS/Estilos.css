@@ -208,14 +208,20 @@ h4{
       outline: none;
     }
   }
+
+
 /*Mis proyectos*/
 .indice{
-  margin: 1% 5%;
+  padding-top:20px;
+  border: dotted #1778BD;
 }
 .indice h2{
-  margin:5% 0%;
-  color: #FFFFFF;
+  font-size: 40px;
+  color:#000000;
+  font-weight: bold;
+  text-align: left;
 }
+
 .indices-proyectos{
   font-size: 20px; 
 }

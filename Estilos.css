@@ -217,3 +217,85 @@ h4{
 .experiencia-laboral h4{
     text-align: justify;
 }
+/*Mis proyectos*/
+.indice h2{
+    font-size: 40px;
+    color:#000000;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 20px;
+}
+.indice a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 1% 1.5% 0% 0%;
+}
+.proyectos{
+    display: inline-block;
+    margin: 3% 5% 0% 5%;
+    width: 90%;
+    height: auto;
+}
+.titulos-proyectos{
+    font-size: 25px;
+    margin-bottom: 3%;
+    text-align: left;
+    color:#000000;
+    font-weight: bold;
+}
+.proyectos img{
+    height:200px;
+    width: 200px;
+    float: inline-start;
+    margin-right: 5%;
+}
+.proyectos p{
+    color: #000000;
+    font-size: 20px;
+}
+@media (max-width: 650px) {
+    .indice h2{
+        margin: 30px 0px;
+    }
+    .proyectos img{
+        height:100%;
+        width: 100%;
+        margin: 5% 0%;
+    }
+}
+/*Blog*/
+.todos-los-blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+.todos-los-blogs img{
+    height:180px;
+    width: 320px;
+    margin: 25px 50px;
+}
+.todos-los-blogs p{
+    color: #000000;
+    text-align: justify;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.titulos-blogs{
+    font-size: 20px;
+    text-align: center;
+    color:#000000;
+    font-weight: bold;
+}
+.blogs-solos{
+    float: left;
+    margin: 1%;
+    border: dotted #1778BD;
+    width: 420px;
+    height: 230px;
+}
+.blogs-solos a{
+    float:left;
+    margin-bottom: 5%;
+}

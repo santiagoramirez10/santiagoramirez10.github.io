@@ -1,5 +1,5 @@
 /*General*/
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -8,39 +8,39 @@
     outline: none;
     font-family: "Bookman Old Style";
 }
-body{
+body {
     margin: 0% 10%;
 }
-p{
-    font-size: 30px;  
+p {
+    font-size: 30px;
     color: #000000;
     text-align: justify;
 }
-h1{
+h1 {
     font-size: 50px;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
     text-align: center;
-    margin-top:60px;
+    margin-top: 60px;
     padding-top: 30px;
 }
-h2{
+h2 {
     font-size: 40px;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
     text-align: center;
-    margin-top:60px;
+    margin-top: 60px;
     padding-top: 30px;
 }
-h3{
+h3 {
     font-size: 30px;
     color: #000000;
     font-weight: bold;
 }
-h4{
+h4 {
     color: #000000;
     font-size: 25px;
-    font-weight:normal;
+    font-weight: normal;
     text-align: left;
 }
 /*Menú principal*/
@@ -53,7 +53,7 @@ h4{
     left: 0;
     align-items: center;
 }
-.menu a{
+.menu a {
     color: #FFFFFF;
     font-weight: bold;
 }
@@ -89,7 +89,8 @@ h4{
     padding: 8px 12px;
     border-radius: 3px;
 }
-.nav-menu-link:hover,.nav-menu-link_active {
+.nav-menu-link:hover,
+.nav-menu-link_active {
     background-color: #FFFFFF;
     transition: 0.5s;
 }
@@ -100,141 +101,199 @@ h4{
     font-size: 30px;
     padding: 0 20px;
     line-height: 60px;
-    cursor: pointer;  
+    cursor: pointer;
     display: none;
 }
-
+/*Index*/
+.presentacion {
+    width: 100%;
+    height: auto;
+}
+.presentacion h2 {
+    margin-top: 1%;
+}
+.presentacion p {
+    text-align: center
+}
+.proyectos-destacados {
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.proyecto-destacado {
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.proyecto-destacado h5 {
+    text-align: center;
+    font-size: 20px;
+}
+.proyecto-destacado img {
+    width: 100%;
+    height: auto;
+}
+.div-video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 5%;
+}
+.div-descripcion {
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.index-video {
+    width: 768px;
+    height: 432px;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+.div-descripcion p {
+    color: #000000;
+    font-size: 25px;
+}
 /*Sobre_mi*/
-.yo{
+.yo {
     padding-top: 20px;
     display: inline-block;
 }
-.yo img{
-    width: 300px;  
-    height:300px;
+.yo img {
+    width: 300px;
+    height: 300px;
     float: left;
     margin-right: 50px;
 }
-.lenguajes-programacion{
+.mis-estudios {
+    display: flex;
+    flex-wrap: wrap;
+}
+.curso {
+    height: 150px;
+    margin: auto;
+}
+.lenguajes-programacion {
     padding-top: 50px;
     width: 97%;
     height: auto;
     margin: 0 1.5%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.lenguaje{
+.lenguaje {
     display: inline-block;
     margin: 0% 1%;
 }
-.lenguaje h3{
+.lenguaje h3 {
     color: #000000;
     font-size: 25px;
     margin 2%;
 }
-.barra{
+.barra {
     width: 350px;
     height: 20px;
     background: #343B40;
 }
-.progreso{
+.progreso {
     height: 100%;
     width: 100%;
     background: #1778BD;
 }
-.experiencia-laboral h3{
+.experiencia-laboral h3 {
     padding-top: 30px;
 }
-.experiencia-laboral h4{
+.experiencia-laboral h4 {
     text-align: justify;
 }
 /*Mis proyectos*/
-.indice h2{
+.indice h2 {
     font-size: 40px;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
     text-align: left;
     padding-top: 20px;
 }
-.indice a{
+.indice a {
     color: #000000;
     font-size: 20px;
     text-decoration: none;
     margin: 1% 1.5% 0% 0%;
 }
-.proyectos{
+.proyectos {
     display: inline-block;
     margin: 3% 5% 0% 5%;
     width: 90%;
     height: auto;
 }
-.titulos-proyectos{
+.titulos-proyectos {
     font-size: 25px;
     margin-bottom: 3%;
     text-align: left;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
 }
-.proyectos img{
-    height:200px;
+.proyectos img {
+    height: 200px;
     width: 200px;
     float: inline-start;
     margin-right: 5%;
 }
-.proyectos p{
+.proyectos p {
     color: #000000;
     font-size: 20px;
 }
 /*Blog*/
-.todos-los-blogs{
+.todos-los-blogs {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0px;
 }
-.todos-los-blogs img{
-    height:180px;
+.todos-los-blogs img {
+    height: 180px;
     width: 320px;
     margin: 25px 50px;
 }
-.todos-los-blogs p{
+.todos-los-blogs p {
     color: #000000;
     text-align: justify;
     margin-top: 2%;
     font-size: 20px;
 }
-.titulos-blogs{
+.titulos-blogs {
     font-size: 20px;
     text-align: center;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
 }
-.blogs-solos{
+.blogs-solos {
     float: left;
     margin: 1%;
     width: 420px;
     height: 230px;
 }
-.blogs-solos a{
-    float:left;
+.blogs-solos a {
+    float: left;
     margin-bottom: 5%;
 }
 /*Footer*/
-.barra-inferior{
+.barra-inferior {
     width: 100%;
     height: auto;
     bottom: 0;
     margin: 5% 0% 0%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.redes-sociales{
+.redes-sociales {
     display: inline-block;
     flex-wrap: wrap;
 }
-.barra-inferior img{
+.barra-inferior img {
     width: 50px;
     height: 50px;
 }
@@ -244,101 +303,135 @@ h4{
     body {
         padding-top: 50px;
         margin: 0% 5%;
-      }
-    p{
-        font-size: 20px; 
     }
-    h1{
+    p {
+        font-size: 20px;
+    }
+    h1 {
         font-size: 40px;
         padding-top: 20px;
         margin-top: 10px;
     }
-    h2{
+    h2 {
         font-size: 30px;
         margin-top: 10px;
     }
-    h3{
+    h3 {
         font-size: 20px;
     }
-    h4{
+    h4 {
         font-size: 15px;
     }
     /*Menú principal*/
     .header {
-      height: 60px;
+        height: 60px;
     }
     .logo {
-      font-size: 25px;
-      padding: 1% 5%;
-      line-height: 60px;
+        font-size: 25px;
+        padding: 1% 5%;
+        line-height: 60px;
     }
     .nav-menu {
-      flex-direction: column;
-      align-items: center;
-      margin: 0;
-      background-color: #000000;
-      position: fixed;
-      top: 60px;
-      width: 100%;
-      padding: 20px 0;
-      height: calc(100% - 60px);
-      overflow-y: auto;
-      left: 100%;
-      transition: left 0.3s;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        background-color: #000000;
+        position: fixed;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
     }
     .nav-menu-item {
-      line-height: 70px;
+        line-height: 70px;
     }
-    .nav-menu-link:hover,.nav-menu-link_active {
-      background: none;
-      color: #000000;
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: #000000;
     }
     .nav-toggle {
-      display: block;
+        display: block;
     }
     .nav-menu_visible {
-      left: 0;
+        left: 0;
     }
     .nav-toggle:focus:not(:focus-visible) {
-      outline: none;
+        outline: none;
     }
-    .curso{
-        width: 100%;
-        margin: 5% 0%;
+    /*Index*/
+    .proyecto-destacado {
+        width: 50%;
+        height: auto;
+        margin: auto;
     }
     /*Sobre mí*/
-    .lenguaje h3{
+    .lenguaje h3 {
         font-size: 20px;
     }
-    .barra{
+    .barra {
         width: 300px;
         height: 15px;
     }
+    .curso {
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
 }
 @media (min-width: 900px) {
-    .mis-estudios{
+    .mis-estudios {
         padding-top: 20px;
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
     }
-    .curso{
+    .curso {
         width: 25%;
         margin: auto;
     }
 }
 @media (max-width: 650px) {
+    /*Index*/
+    .proyecto-destacado {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .index-video {
+        width: 100%;
+        height: auto;
+    }
+    .div-video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .div-descripcion {
+        margin: 0;
+    }
+    .div-descripcion p {
+        font-size: 20px;
+    }
     /*Sobre mí*/
-    .yo img{
-        width: 100%;  
-        height:100%;
+    .yo img {
+        width: 100%;
+        height: 100%;
         margin-bottom: 30px;
     }
+    .curso {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
     /*Mis proyectos*/
-    .indice h2{
+    .indice h2 {
         margin: 30px 0px;
     }
-    .proyectos img{
-        height:100%;
+    .proyectos img {
+        height: 100%;
         width: 100%;
         margin: 5% 0%;
     }

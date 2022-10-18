@@ -5,10 +5,11 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: "Calibri";
+    font-family: "Lato";
 }
 body {
     margin: 0% 5%;
+    background-color: #FFFFFF;
 }
 p {
     margin-top: 10px;
@@ -16,7 +17,7 @@ p {
     font-size: 25px;
 }
 h1{
-    margin-top: 60px;
+    margin-top: 80px;
     font-size: 50px;
     text-align: center;
 }
@@ -36,7 +37,7 @@ h4{
     font-weight: normal;
     text-align: left;  
 }
-/*Menu*/
+/*header*/
 .menu {
     background-color: #000000;
     position: fixed;
@@ -59,19 +60,19 @@ h4{
     text-decoration: none;
 }
 .logo {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    margin: 15px 5%;
+    margin: 20px 5%;
 }
 .nav-menu {
     display: flex;
     margin-right: 40px;
     list-style: none;
+    align-items: center;
 }
 .nav-menu-item {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 10px;
-    line-height: 80px;
     text-transform: uppercase;
     width: max-content;
 }
@@ -92,24 +93,6 @@ h4{
     line-height: 60px;
     cursor: pointer;
     display: none;
-}
-/*Footer*/
-.barra-inferior {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    margin: 5% 0% 0%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.redes-sociales {
-    display: inline-block;
-    flex-wrap: wrap;
-}
-.barra-inferior img {
-    width: 50px;
-    height: 50px;
 }
 /*index*/
 .my-info p{
@@ -137,6 +120,8 @@ h4{
 	width: 80%;
     height: auto;
     margin: 0 10%;
+    border: solid #1778BD;
+    border-radius: 5%;
 }
 @keyframes slide {
 	0% {margin-left: 0;}
@@ -151,58 +136,15 @@ h4{
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
 }
-/*Dispositivos móviles*/
-@media (max-width: 900px) {
-    .menu {
-        height: 70px;
-    }
-    .nav-menu {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        background-color: #000000;
-        position: fixed;
-        top: 60px;
-        width: 100%;
-        padding: 20px 0;
-        height: calc(100% - 60px);
-        overflow-y: auto;
-        left: 100%;
-        transition: left 0.3s;
-    }
-    .nav-menu-item {
-        line-height: 70px;
-    }
-    .nav-menu-link:hover,
-    .nav-menu-link_active {
-        background: none;
-        color: #000000;
-    }
-    .nav-toggle {
-        display: block;
-    }
-    .nav-menu_visible {
-        left: 0;
-    }
-    .nav-toggle:focus:not(:focus-visible) {
-        outline: none;
-    }
-    .index-video {
-        width: 100%;
-        height: 200px;
-    }
+.last-video {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 5% 10%;
 }
-@media (min-width: 900px) {
-    .section-video {
-        width: 80%;
-        height: auto;
-        display: block;
-        margin: 5% 10%;
-    }
-    .index-video {
-        width: 100%;
-        height: 500px;
-    }
+.index-video {
+    width: 100%;
+    height: 45vw;
 }
 /*about_me*/
 .yo {
@@ -220,7 +162,7 @@ h4{
     flex-wrap: wrap;
 }
 .curso {
-    width: 20%;
+    width: 20vh;
     height: auto;
     align-items: center;
     margin: 1% auto;
@@ -268,6 +210,80 @@ h4{
 .experiencia-laboral h4 {
     text-align: justify;
 }
+/*my_projects*/
+.my-projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.project{
+    margin: 1% auto;
+    align-items: center;
+    border: solid #1778BD;
+    border-radius: 5%;
+}
+.project img{
+    width: 250px;
+    height: 250px;
+}
+/*footer*/
+.pie-pagina{
+    width: 90%;
+    height: auto;
+    background: #FFFFFF;
+    color: #000000;
+    margin: 5% 5% 0%;
+    border: solid #343B40;
+}
+.informacion-pie{
+    display: flex;
+    justify-content: space-between;
+    margin: 0% auto;
+}
+.informacion-pie h1{
+    font-size: 25px;
+    margin: 0%;
+    text-align: left;
+}
+.informacion-pie p{
+    font-size: 20px;
+}
+.colum1, .colum2, .colum3{
+    width: 30%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    margin: 3% 0%;
+}
+.row img{
+    width: 30px;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+.row label{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 20px;
+}
+.derechos{
+    width: 100%;
+    height: auto;
+    background-color: #343B40;
+    color: #FFFFFF;
+    margin: 1% 0% 0% 0%;
+}
+.derechos p{
+    width: 100%;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
 /*Dispositivos móviles*/
 @media (max-width: 650px) {
     .yo img {
@@ -293,6 +309,58 @@ h4{
     }
 }
 @media (max-width: 900px) {
+    /*header*/
+    .menu {
+        height: 70px;
+    }
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: #000000;
+        position: fixed;
+        top: 70px;
+        width: 100%;
+        height: calc(100% - 70px);
+        left: 100%;
+        transition: left 1s;
+    }
+    .nav-menu-item {
+        width: 100%;
+        text-align: center;
+        margin: 5% 0%;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .nav-menu_visible {
+        left: 0;
+    }
+    .nav-toggle:focus:not(:focus-visible) {
+        outline: none;
+    }
+    .notable-proyects img {
+        width: 90%;
+        height: auto;
+        margin: 0% 5%;
+        border: solid #1778BD;
+        border-radius: 5%;
+    }
+    /*footer*/
+    .informacion-pie{
+        flex-wrap: wrap;
+    }
+    .informacion-pie h1{
+        text-align: center;
+    }
+    .colum1, .colum2, .colum3{
+        margin: 5%;
+        width: 100%;
+    }
+    .derechos p{
+        width: 100%;
+        height: 40px;
+    }
+    /*about_me*/
     .lenguaje{
         width: 100%;
         margin: 1% 0%;
@@ -307,4 +375,18 @@ h4{
         margin: 1% auto;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

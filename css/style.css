@@ -295,6 +295,34 @@ h4{
     margin: 0px 75px;
     border-radius: 5%;
 }
+/*blog*/
+.my-blogs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.blog{
+    width: 400px;
+    margin: 1% auto;
+    border: solid #000000;
+    border-radius: 5%;
+    display: block;
+}
+.blog a{
+    color: #000000;
+    text-decoration: none;
+}
+.img-blog{
+    width: 380px;
+    height: auto;
+    margin: 5px 10px;
+}
+.blog p{
+    margin: 0px 25px 5px;
+}
+/*contact*/
 /*Dispositivos móviles*/
 @media (max-width: 650px) {
     .yo img {

@@ -137,6 +137,8 @@ footer{
     color: #000000;
     margin: 5% 5% 0%;
     border: solid #343B40;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .footer-info{
     display: flex;
@@ -184,6 +186,24 @@ footer{
     color: white;
     font-size: 20px;
     text-align: center;
+}
+/*language*/
+.select-language a{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    top:150px;
+    right:0px;
+}
+.select-language img{
+    width:50px;
+    height:50px;
+    position: relative;
+    opacity: 0.5;
+}
+.select-language img:hover{
+    opacity: 1;
 }
 /*index*/
 .my-info p{
@@ -327,7 +347,7 @@ footer{
 .project-link{
     width: 150px;
     height: 50px;
-    margin: auto 75px;
+    margin: 5px 75px 0px;
     border-radius: 5%;
 }
 /*blog*/
@@ -396,7 +416,7 @@ footer{
         width: 100%;
         height: calc(100% - 70px);
         left: 100%;
-        transition: left 1s;
+        transition: left 0.5s;
     }
     .nav-menu-item {
         width: 100%;
@@ -456,3 +476,5 @@ footer{
         margin: 1% auto;
     }
 }
+
+

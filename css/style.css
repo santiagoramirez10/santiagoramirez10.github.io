@@ -475,18 +475,12 @@ footer{
         width: 100%;
         height: 40px;
     }
-    /*about_me*/
-    .language{
-        width: 100%;
-        margin: 1% 0%;
-    }
-    .bar {
-        width: 100%;
-        height: 15px;
-    }
-    .course {
-        width: 75%;
-        height: auto;
-        margin: 1% auto;
-    }
+}
+/*blogs*/
+.cheats-list li{
+    font-size: 25px;
+}
+.civilization h4{
+    font-weight: bold;
+    text-transform: uppercase;
 }

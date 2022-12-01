@@ -67,38 +67,8 @@ header a{
     padding: 5px;
     position: relative;
 }
-header a::before,
-header a::after{
-  content: '';
-  height: 15px;
-  width: 15px;
-  position: absolute;
-  transition: all .35s ease;
-  opacity: 0;
-}
-header a::before{
-  content: '';
-  right: 0;
-  top: 0;
-  border-top: 3px solid #1778BD;
-  border-right: 3px solid #1778BD;
-  transform: translate(-100%, 50%);
-}
-header a:after{
-  content: '';
-  left: 0;
-  bottom: 0;
-  border-bottom: 3px solid #1778BD;
-  border-left: 3px solid #1778BD;
-  transform: translate(100%, -50%)
-}
-header a:hover:before,
-header a:hover:after{
-  transform: translate(0,0);
-  opacity: 1;
-}
 header a:hover {
-  color: #5A6AB0;
+  color: #1778BD;
 }
 .nav-header {
     display: flex;
@@ -347,9 +317,15 @@ footer{
 .project{
     width: 300px;
     margin: 1% auto;
-    border: solid #5A6AB0;
+    border: solid #1778BD;
     border-radius: 5%;
     display: block;
+}
+.link-reference{
+    color: #000000;
+}
+.link-reference:hover{
+    color: #1778BD;
 }
 .project-img{
     width: 250px;
@@ -360,10 +336,22 @@ footer{
     margin: 0px 25px 5px;
 }
 .project-link{
-    width: 150px;
-    height: 50px;
-    margin: 5px 75px 0px;
-    border-radius: 5%;
+    width: 50%;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #1778BD;
+    border: solid 5px #FFFFFF;
+    border-radius: 10px;
+}
+.project-link:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: solid 5px #1778BD;
+    border-radius: 10px;
 }
 /*blog*/
 .my-blogs{
@@ -491,6 +479,17 @@ footer{
     table{
         font-size: 15px;
     }
+    th{
+        text-align: left;
+        color: #1778BD;
+        border: 0.5px solid #1778BD;
+        padding: 2px;
+    }
+    td{
+        text-align: left;
+        border: 0.5px solid #1778BD;
+        padding: 2px;
+    }
     /*about_me*/
     .me img {
         width: 80%;
@@ -556,7 +555,7 @@ footer{
         left: 0;
     }
     .nav-toggle:hover{
-        color: #5A6AB0;
+        color: #1778BD;
     }
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;

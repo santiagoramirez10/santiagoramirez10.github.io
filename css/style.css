@@ -10,7 +10,9 @@
 }
 body{
     margin: 0% 5%;
-    background-color: #FFFFFF;
+}
+.body-content{
+    margin: 0% 5%;
 }
 p{
     margin-top: 10px;
@@ -105,7 +107,7 @@ header a:hover {
     transition: 0.5s;
 }
 .nav-toggle {
-    color: white;
+    color: #FFFFFF;
     background: none;
     border: none;
     font-size: 30px;
@@ -390,13 +392,14 @@ footer{
 .weeks-portfolioSS a:hover{
     color: #5A6AB0;
 }
-.destrezas{
+.skills{
     display: flex;
     justify-content: center;
 }
 .autorretrato{
     display: flex;
     height: auto;
+    align-items: center;
 }
 .autorretrato img{
     width: 40%;
@@ -404,6 +407,15 @@ footer{
 }
 .convencionesar{
     height: 100%;
+}
+.decalogue li{
+    font-size: 25px;
+}
+.skills-image{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
 }
 .cheats, .civilizations{
     margin-top: 3%;
@@ -573,6 +585,9 @@ footer{
         margin: 3% auto;
     }
     .autorretrato img{
+        width: 100%;
+    }
+    .skills-image{
         width: 100%;
     }
     /*footer*/

@@ -8,6 +8,11 @@
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, inictial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +21,7 @@
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <title>Mis proyectos-SRP</title>
 </head>
+
 <body>
     <header>
         <nav class="nav-header">
@@ -31,60 +37,86 @@
             </ul>
         </nav>
     </header>
-    <h1>Proyectos de programación</h1>
-    <section class="my-projects">
-        <div class="project">
-            <h3>Clon página principal <a class="link-reference" href="https://sapiencia.gov.co/" target="_blank">Sapiencia</a></h3>
-            <img class="project-img" src="images/sapiencia.jpg" alt="Página principal Sapiencia">
-            <p>Esta es una copia de la página principal de Sapiencia, agencia de educación en la que realicé el curso de full stack nivel 1.</p>
-            <a class="project-link" href="Proyectos/Homepage_sapiencia/index.html">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>Fruver master</h3>
-            <img class="project-img" src="images/fruver_master.png" alt="Página principal Sapiencia">
-            <p>Esta es una página para un fruver. Este proyecto fue realizado para el curso de desarrollador full stack nivel 1.</p>
-            <a class="project-link" href="Proyectos/Fruver_master/index.html">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>Matriz identidad</h3>
-            <img class="project-img" src="images/matriz_identidad.png" alt="Matriz identidad de 20x20 en Python">
-            <p>En este proyecto se realiza la programación en Python para la creación de una matriz identidad de nxn dimensiones, donde n es un número entero positivo digitado por el usuario.</p>
-            <a class="project-link" href="https://github.com/santiagoramirez10/Matematicas_en_python/tree/main/Matriz_identidad" target="_blank">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>Semáforo</h3>
-            <img class="project-img" src="images/Semaforo.png" alt="Semáforo animado">
-            <p>En este proyecto se realiza la programación de la placa Arduino de 3 LED de colores rojo, amarillo y
-                verde para que enciendan y apaguen en diferentes secuencias simulando un semáforo real.</p>
-            <a class="project-link" href="https://github.com/santiagoramirez10/LEDs/tree/main/Semaforo" target="_blank">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>LED con fotocelda</h3>
-            <img class="project-img" src="images/Fotocelda.png" alt="Fotocelda">
-            <p>En este proyecto se realiza la programación de la placa Arduino para que un LED se encienda cuando una
-                fotocelda detecta ausencia de luz.</p>
-            <a class="project-link" href="https://github.com/santiagoramirez10/LEDs/tree/main/LED_Fotocelda" target="_blank">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>Contador de 0 a 9</h3>
-            <img class="project-img" src="images/Display7s1p.png" alt="Display 7 segmentos 1 puesto">
-            <p>En este proyecto se realiza la programación de la placa Arduino para que el display de 7 segmentos
-                muestre los números del 0 al 9 con un delay de 1 segundo cada uno.</p>
-            <a class="project-link" href="https://github.com/santiagoramirez10/Displays/tree/main/Display7S1P" target="_blank">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>Hola mundo en display LCD 16x2</h3>
-            <img class="project-img" src="images/Displaylcd12x2.png" alt="Display LCD 16x2">
-            <p>En este proyecto se realiza la programación de la placa Arduino para que en la pantalla LCD se muestre
-                "Hola mundo" y "Hello world".</p>
-            <a class="project-link" href="https://github.com/santiagoramirez10/Displays/tree/main/LCD16x2" target="_blank">Ver proyecto</a>
-        </div>
-    </section>
-    <section class="select-language">
-        <a href="my_projects_en.html">
-            <img src="images/Estados_Unidos.png">
-        </a>
-    </section>
+    <div class="container">
+        <h1>Proyectos de programación</h1>
+        <section class="my-projects">
+            <div class="card" style="width: 18rem;">
+                <img src="images/sapiencia.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Clon página de Sapiencia</h5>
+                    <p class="card-text">HTML-CSS</p>
+                    <a href="projects/Homepage_sapiencia/index.html" class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/fruver_master.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Página de un fruver</h5>
+                    <p class="card-text">HTML-CSS-JavaScript</p>
+                    <a href="projects/Fruver_master/index.html" class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/matriz_identidad.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Matriz identidad</h5>
+                    <p class="card-text">Python</p>
+                    <a href="https://github.com/santiagoramirez10/Matematicas_en_python/tree/main/Matriz_identidad"
+                        target="_blank" class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/reto_innovacion.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Reto innovación social</h5>
+                    <p class="card-text">Python-SQL</p>
+                    <a href="https://github.com/santiagoramirez10/Proyectos_Python/tree/main/Innovacion%20social"
+                        target="_blank" class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Semaforo.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Semáforo inteligente</h5>
+                    <p class="card-text">Arduino</p>
+                    <a href="https://github.com/santiagoramirez10/LEDs/tree/main/Semaforo" target="_blank"
+                        class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Fotocelda.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">LED con fotocelda</h5>
+                    <p class="card-text">Arduino</p>
+                    <a href="https://github.com/santiagoramirez10/LEDs/tree/main/LED_Fotocelda" target="_blank"
+                        class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Display7s1p.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Contador de 0 a 9</h5>
+                    <p class="card-text">Arduino</p>
+                    <a href="https://github.com/santiagoramirez10/Displays/tree/main/Display7S1P" target="_blank"
+                        class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="images/Displaylcd12x2.png" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Hola mundo en pantalla</h5>
+                    <p class="card-text">Arduino</p>
+                    <a href="https://github.com/santiagoramirez10/Displays/tree/main/LCD16x2" target="_blank"
+                        class="btn btn-primary">Ver proyecto</a>
+                </div>
+            </div>
+        </section>
+        <section class="select-language">
+            <a href="my_projects_en.html">
+                <img src="images/Estados_Unidos.png">
+            </a>
+        </section>
+    </div>
     <footer>
         <div class="footer-info">
             <div class="colum1-footer">
@@ -151,4 +183,5 @@
         </div>
     </footer>
 </body>
+
 </html>

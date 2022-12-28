@@ -1,57 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Portafolio Santiago Ramírez, programador junior de Python y Arduino|Ingeniero electricista en formación">
-        <meta name="robots" content="index,follow">
-        <meta name="viewport" content="width=device-width, inictial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet"> 
-        <script defer src="js/app.js"></script>
-        <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
-        <title>Inicio-SRP</title>
-    </head>
-    <body>
-        <header>
-            <nav class="nav-header">
-                <a href="index.html" class="name">SANTIAGO R. P.</a>
-                <button class="nav-toggle" aria-label="Open menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <ul class="nav-menu">
-                    <li class="nav-menu-item"><a href="about_me.html">Sobre mí</a></li>
-                    <li class="nav-menu-item"><a href="my_projects.html">Mis proyectos</a></li>
-                    <li class="nav-menu-item"><a href="blog.html">Blog</a></li>
-                    <li class="nav-menu-item"><a href="contact.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Portafolio Santiago Ramírez, programador junior de Python y Arduino|Ingeniero electricista en formación">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, inictial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
+    <script defer src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <title>Inicio-SRP</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-header">
+            <a href="index.html" class="name">SANTIAGO R. P.</a>
+            <button class="nav-toggle" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="about_me.html">Sobre mí</a></li>
+                <li class="nav-menu-item"><a href="my_projects.html">Mis proyectos</a></li>
+                <li class="nav-menu-item"><a href="blog.html">Blog</a></li>
+                <li class="nav-menu-item"><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
         <h1>Bienvenidos</h1>
         <section class="my-info">
+            <img src="images/Perfil.png">
             <h2>Santiago Ramírez Pérez</h2>
             <p>Estudiante de ingeniería eléctrica|Programador Python y Arduino|Desarrollador frontend junior</p>
         </section>
         <section class="notable-proyects">
             <h2>Proyectos destacados</h2>
-            <ul>
-                <li><img src="images/Semaforo_montaje.png" alt="Montaje de semáforo con 3 LED en protoboard"></li>
-                <li><img src="images/OLED128x64_montaje.png" alt="Montaje de pantalla OLED 128x64 en protoboard"></li>
-                <li><img src="images/LCD16x2_montaje.png" alt="Montaje de pantalla 16x2 en protoboard"></li>
-                <li><img src="images/Display7S1P_montaje.png" alt="Montaje display de 7 segmentos 1 puesto en protoboard"></li>
-            </ul>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" style="margin-top: 20px;">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="images/Display7S1P_montaje.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="images/LCD16x2_montaje.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Semaforo_montaje.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/OLED128x64_montaje.png" class="d-block w-100" alt="">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
         <section class="last-video">
-            <div class="notable-video">
-                <h2>Último tutorial de Youtube</h2>
-                <iframe class="index-video" src="https://www.youtube.com/embed/PWeVp0hOesM"></iframe>
-            </div>
-            <div class="video-description">
-                <p>En este vídeo se explica la realización de una matriz identidad de orden n programada en Python. En la
-                    consola se imprime la matriz de una manera que quede organizada y se pueda apreciar bien la diagonal que
-                    es la que contiene todos los 1.</p>
+            <h2>Último tutorial de YouTube</h2>
+            <div class="index-video">
+                <iframe src="https://www.youtube.com/embed/PWeVp0hOesM" title="YouTube video player"
+                    allowfullscreen></iframe>
             </div>
         </section>
         <section class="select-language">
@@ -59,72 +103,73 @@
                 <img src="images/Estados_Unidos.png">
             </a>
         </section>
-        <footer>
-            <div class="footer-info">
-                <div class="colum1-footer">
-                    <h1>Objetivo de la página</h1>
-                    <p>Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
-                        como programador.</p>
+    </div>
+    <footer>
+        <div class="footer-info">
+            <div class="colum1-footer">
+                <h1>Objetivo de la página</h1>
+                <p>Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
+                    como programador.</p>
+            </div>
+            <div class="colum2-footer">
+                <h1>Redes Sociales</h1>
+                <div class="row-footer">
+                    <a href="https://www.linkedin.com/in/santiagoramirezperez/" target="_blank"><img
+                            src="../images/linkedin.png" alt="" /></a>
+                    <label>/santiagoramirezperez</label>
                 </div>
-                <div class="colum2-footer">
-                    <h1>Redes Sociales</h1>
-                    <div class="row-footer">
-                        <a href="https://www.linkedin.com/in/santiagoramirezperez/" target="_blank"><img
-                                src="../images/linkedin.png" /></a>
-                        <label>/santiagoramirezperez</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://www.facebook.com/s.ramirezp10" target="_blank"><img
-                                src="../images/facebook.png" /></a>
-                        <label>/s.ramirezp10</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://www.instagram.com/s_ramirezp10/ " target=" _blank"><img
-                                src="../images/instagram.png" /></a>
-                        <label>@s_ramirezp10</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://www.tiktok.com/@s.ramirezp10" target="_blank"><img
-                                src="../images/tiktok.png" /></a>
-                        <label>@s.ramirezp10</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://twitter.com/s_ramirezp10" target="_blank"><img src="../images/twitter.png" /></a>
-                        <label>@s_ramirezp10</label>
-                    </div>
+                <div class="row-footer">
+                    <a href="https://www.facebook.com/s.ramirezp10" target="_blank"><img src="../images/facebook.png"
+                            alt="" /></a>
+                    <label>/s.ramirezp10</label>
                 </div>
-                <div class="colum3-footer">
-                    <h1>Información de contacto</h1>
-                    <div class="row-footer">
-                        <img src="../images/ubicacion.png" />
-                        <label>Medellín, Colombia</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://api.whatsapp.com/send?phone=573503783575" target="_blank"><img
-                                src="../images/whatsapp.png" /></a>
-                        <label>+57-3503783575</label>
-                    </div>
-                    <div class="row-footer">
-                        <img src="../images/gmail.png" />
-                        <label>santiagoramirezperez96</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://github.com/santiagoramirez10" target="_blank"><img
-                                src="../images/github.png" /></a>
-                        <label>/santiagoramirez10</label>
-                    </div>
-                    <div class="row-footer">
-                        <a href="https://www.youtube.com/@s_ramirezp10" target="_blank"><img
-                                src="../images/youtube.png" /></a>
-                        <label>@s_ramirezp10</label>
-                    </div>
+                <div class="row-footer">
+                    <a href="https://www.instagram.com/s_ramirezp10/ " target=" _blank"><img
+                            src="../images/instagram.png" alt="" /></a>
+                    <label>@s_ramirezp10</label>
+                </div>
+                <div class="row-footer">
+                    <a href="https://www.tiktok.com/@s.ramirezp10" target="_blank"><img src="../images/tiktok.png"
+                            alt="" /></a>
+                    <label>@s.ramirezp10</label>
+                </div>
+                <div class="row-footer">
+                    <a href="https://twitter.com/s_ramirezp10" target="_blank"><img src="../images/twitter.png"
+                            alt="" /></a>
+                    <label>@s_ramirezp10</label>
                 </div>
             </div>
-            <div class="copyright">
-                <p>© 2022 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
+            <div class="colum3-footer">
+                <h1>Información de contacto</h1>
+                <div class="row-footer">
+                    <img src="../images/ubicacion.png" alt="" />
+                    <label>Medellín, Colombia</label>
+                </div>
+                <div class="row-footer">
+                    <a href="https://api.whatsapp.com/send?phone=573503783575" target="_blank"><img
+                            src="../images/whatsapp.png" alt="" /></a>
+                    <label>+57-3503783575</label>
+                </div>
+                <div class="row-footer">
+                    <img src="../images/gmail.png" alt="" />
+                    <label>santiagoramirezperez96</label>
+                </div>
+                <div class="row-footer">
+                    <a href="https://github.com/santiagoramirez10" target="_blank"><img src="../images/github.png"
+                            alt="" /></a>
+                    <label>/santiagoramirez10</label>
+                </div>
+                <div class="row-footer">
+                    <a href="https://www.youtube.com/@s_ramirezp10" target="_blank"><img src="../images/youtube.png"
+                            alt="" /></a>
+                    <label>@s_ramirezp10</label>
+                </div>
             </div>
-        </footer>
-    </body>
-</html>
+        </div>
+        <div class="copyright">
+            <p>© 2022 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
+        </div>
+    </footer>
+</body>
 
-<link
+</html>

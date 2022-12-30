@@ -120,6 +120,18 @@ h2 {
 .servicios img {
     width: 32%;
 }
+/*Volver atrás*/
+.back-arrow a{
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    color: #1CA56F;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+.back-arrow a:hover{
+    color: #FCA62F;
+}
 
 @media (max-width: 750px) {
     section {

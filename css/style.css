@@ -4,6 +4,7 @@
 }
 a{
     text-decoration: none;
+    color: #343B40;
 }
 p{
     margin-top: 10px;
@@ -161,6 +162,7 @@ footer{
 .copyright{
     width: 100%;
     height: 50px;
+    border-top: inset #FFFFFF;
 }
 .copyright p{
     width: 100%;
@@ -198,11 +200,11 @@ footer{
     text-align: center;
     font-size: 30px;
 }
-.last-video {
-    width: 80%;
+.last-video{
+    width: 100%;
     height: auto;
     display: block;
-    margin: 5% 10%;
+    margin: 5% 0%;
 }
 .index-video {
 	height: 0;
@@ -335,13 +337,15 @@ footer{
 .blog{
     width: 400px;
     margin: 1% auto;
-    border: solid #000000;
+    border: solid #1778BD;
     border-radius: 5%;
     display: block;
 }
 .blog a{
-    color: #000000;
     text-decoration: none;
+}
+.blog h3{
+    color: #1778BD;
 }
 .img-blog{
     width: 380px;
@@ -355,11 +359,8 @@ footer{
 .weeks-portfolioSS h3{
     margin-top: 3%;
 }
-.weeks-portfolioSS a{
-    color: #000000;
-}
 .weeks-portfolioSS a:hover{
-    color: #5A6AB0;
+    color: #1778BD;
 }
 .skills{
     display: flex;
@@ -486,21 +487,18 @@ footer{
     }
 }
 @media (max-width: 900px) {
-    .div-content{
-        margin: 0% 5%;
-    }
     /*header*/
-    .nav-menu {
+    .nav-menu{
         flex-direction: column;
-        align-items: center;
         background-color: #343B40;
         position: fixed;
         top: 70px;
         width: 100%;
         height: 100%;
         left: 100%;
-        transition: left 0.5s;
+        transition: left 1s;
         margin: 0;
+        padding: 0;
     }
     .nav-menu-item {
         width: 100%;

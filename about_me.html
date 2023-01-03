@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
     <script defer src="js/app.js"></script>
+    <script defer src="js/languages.js"></script>
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <title>Sobre mí-SRP</title>
 </head>
@@ -25,74 +26,74 @@
 <body>
     <header>
         <nav class="nav-header">
-            <a href="index.html" class="name">SANTIAGO R. P.</a>
+            <a href="index.html"  id="name" class="name">SANTIAGO R. P.</a>
             <button class="nav-toggle" aria-label="Open menu">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="about_me.html">Sobre mí</a></li>
-                <li class="nav-menu-item"><a href="my_projects.html">Mis proyectos</a></li>
-                <li class="nav-menu-item"><a href="blog.html">Blog</a></li>
-                <li class="nav-menu-item"><a href="contact.html">Contacto</a></li>
+                <li class="nav-menu-item"><a id="about-me" href="about_me.html">Sobre mí</a></li>
+                <li class="nav-menu-item"><a id="my-projects" href="my_projects.html">Mis proyectos</a></li>
+                <li class="nav-menu-item"><a id="blog" href="blog.html">Blog</a></li>
+                <li class="nav-menu-item"><a id="contact" href="contact.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
-        <h1>Un poco sobre mí</h1>
+        <h1 id="h1-about">Un poco sobre mí</h1>
         <section class="me">
-            <p>Hola, mi nombre es <b>Santiago Ramírez Pérez</b>, soy estudiante de ingeniería eléctrica de la Universidad
+            <p id="me-paragraph1">Hola, mi nombre es Santiago Ramírez Pérez, soy estudiante de ingeniería eléctrica de la Universidad
                         de Antioquia y actualmente estoy en el octavo nivel. A lo largo de la carrera he podido aprender
                         e ir fortaleciendo habilidades en programación que es lo que más me apasiona. También, las
                         energías renovables y la domótica son de gran interés para mí.
             </p>
-            <p>En cuanto a programación, tengo alrededor de 5 años estudiando Python y Arduino que son mis lenguajes
+            <p id="me-paragraph2">En cuanto a programación, tengo alrededor de 5 años estudiando Python y Arduino que son mis lenguajes
                 favoritos y fueron con los que comencé en el mundo de la programación. Actualmente me encuentro
                 estudiando sobre desarrollo web que es mi próximo objetivo y es la principal razón por la que estoy
                 realizando este proyecto del portafolio.
             </p>
-            <p>Mi interés hoy en día es participar en proyectos en los cuales pueda desarrollar mis habilidades como
+            <p id="me-paragraph3">Mi interés hoy en día es participar en proyectos en los cuales pueda desarrollar mis habilidades como
                 programador y/o aplicar los conocimientos que he adquirido en el área de ingeniería eléctrica, no solo
                 me interesan los lenguajes de programación para los cuales tengo gran dominio, sino también enfrentar
                 nuevos retos y adquirir conocimientos que permitan el desarrollo exitoso de los proyectos en los cuales
                 haga parte.
             </p>
         </section>
-        <h2>Formación académica</h2>
+        <h2 id="academic-studies">Formación académica</h2>
         <section class="my-courses">
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Ingeniería eléctrica</h5>
+                    <h5 id="studies-title1" class="card-title">Ingeniería eléctrica</h5>
                     <p class="card-text">Universidad de Antioquia</p>
                     <p>2014-actual</p>
                 </div>
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Curso desarrollador fullstack nivel junior</h5>
+                    <h5 id="studies-title2" class="card-title">Curso desarrollador full-stack nivel junior</h5>
                     <p class="card-text">IME Escuelas Técnicas</p>
                     <p>2022</p>
                 </div>
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Curso energía solar fotovoltaica</h5>
+                    <h5 id="studies-title3" class="card-title">Curso energía solar fotovoltaica</h5>
                     <p class="card-text">AIE UdeA</p>
                     <p>2022</p>
                 </div>
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Programador de videojuegos nivel 1</h5>
+                    <h5 id="studies-title4" class="card-title">Programador de videojuegos nivel 1</h5>
                     <p class="card-text">Ubicua Technology</p>
                     <p>2022</p>
                 </div>
             </div>
         </section>
-        <h2>Otros cursos</h2>
+        <h2 id="other-courses">Otros cursos</h2>
         <section class="my-courses">
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Básico de Python</h5>
+                    <h5 id="courses-title1" class="card-title">Básico de Python</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="https://platzi.com/p/santiagoramirezperez96/curso/1937-python/diploma/detalle/"
@@ -101,7 +102,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">POO y algoritmos en Python</h5>
+                    <h5 id="courses-title2" class="card-title">Programación orientada a objetos y algoritmos en Python</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="https://platzi.com/p/santiagoramirezperez96/curso/1775-poo-python/diploma/detalle/"
@@ -110,7 +111,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Profesional de Python</h5>
+                    <h5 id="courses-title3" class="card-title">Profesional de Python</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="" class="btn btn-primary" target="_blank">Ver certificado</a>
@@ -118,7 +119,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Práctico de HTML y CSS</h5>
+                    <h5 id="courses-title4" class="card-title">Práctico de HTML y CSS</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="https://platzi.com/p/santiagoramirezperez96/curso/1758-html-practico/diploma/detalle/"
@@ -127,7 +128,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Básico de JavaScript</h5>
+                    <h5 id="courses-title5"  class="card-title">Básico de JavaScript</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="https://platzi.com/p/santiagoramirezperez96/curso/1814-basico-javascript/diploma/detalle/"
@@ -136,7 +137,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Programacion orientada a objetos con JavaScript</h5>
+                    <h5 id="courses-title6" class="card-title">Programacion orientada a objetos con JavaScript</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="https://platzi.com/p/santiagoramirezperez96/curso/2332-javascript-poo/diploma/detalle/"
@@ -145,7 +146,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Frontend developer</h5>
+                    <h5 id="courses-title7" class="card-title">Front-end developer</h5>
                     <p class="card-text">Platzi</p>
                     <p>2022</p>
                     <a href="https://platzi.com/p/santiagoramirezperez96/curso/2467-frontend-developer/diploma/detalle/"
@@ -154,15 +155,15 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Python esencial</h5>
+                    <h5 id="courses-title8" class="card-title">Python esencial</h5>
                     <p class="card-text">Linkedin Learning</p>
                     <p>2022</p>
-                    <a href="" class="btn btn-primary" target="_blank">Ver certificado</a>
+                    <a href="https://www.linkedin.com/learning/certificates/94656c36cba1d0b5c4141969870ed29e17f18bd232668668e7f583c2d6137f37?trk=share_certificate" class="btn btn-primary" target="_blank">Ver certificado</a>
                 </div>
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Python avanzado</h5>
+                    <h5 id="courses-title9" class="card-title">Python avanzado</h5>
                     <p class="card-text">Linkedin Learning</p>
                     <p>2022</p>
                     <a href="https://www.linkedin.com/learning/certificates/37940258c40539820543b27b35483c15f79810ffa6e25b7ef7826355313f0567?trk=share_certificate"
@@ -171,15 +172,15 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Python para data science y big data esencial</h5>
+                    <h5 id="courses-title10" class="card-title">Python para data science y big data esencial</h5>
                     <p class="card-text">Linkedin Learning</p>
                     <p>2022</p>
-                    <a href="" class="btn btn-primary" target="_blank">Ver certificado</a>
+                    <a href="https://www.linkedin.com/learning/certificates/bef9517b8b646682db9bcd7dacac8aa68f03a9d92e9e29ea86cdf65f620f123d" class="btn btn-primary" target="_blank">Ver certificado</a>
                 </div>
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Soporte técnico para el mantenimiento de equipos de cómputo</h5>
+                    <h5 id="courses-title11" class="card-title">Soporte técnico para el mantenimiento de equipos de cómputo</h5>
                     <p class="card-text">SENA</p>
                     <p>2022</p>
                     <a href="" class="btn btn-primary" target="_blank">Ver certificado</a>
@@ -187,7 +188,7 @@
             </div>
             <div class="course">
                 <div class="card" style="margin: 10px">
-                    <h5 class="card-title">Instalaciones eléctricas domiciliarias</h5>
+                    <h5 id="courses-title12" class="card-title">Instalaciones eléctricas domiciliarias</h5>
                     <p class="card-text">SENA</p>
                     <p>2022</p>
                     <a href="http://certificados.sena.edu.co/guardar.asp?var1=9521002502485CC1017240851C"
@@ -195,7 +196,7 @@
                 </div>
             </div>
         </section>
-        <h2>Lenguajes</h2>
+        <h2 id="languages">Lenguajes</h2>
         <section class="programming-laguages">
             <div class="language">
                 <h3>Python</h3>
@@ -264,9 +265,9 @@
         </section>
         <section class="experience">
             <div class="work-experience">
-                <h2>Experiencia laboral</h2>
-                <h3>Particular</h3>
-                <h4>Asesorías personalizadas en proyectos que incluían la programación en Python y/o Arduino: simulación
+                <h2 id="work-experience">Experiencia laboral</h2>
+                <h3 id="work-type1">Particular</h3>
+                <h4 id="work-description1">Asesorías personalizadas en proyectos que incluían la programación en Python y/o Arduino: simulación
                     de una planta de tratamiento de aguas (Arduino), tratamiento de datos de generación semestral de
                     energía eléctrica del país (Python), algoritmos clasificadores (Python), entre otros. También he
                     realizado proyectos personales que he podido comercializar.
@@ -274,95 +275,99 @@
             </div>
         </section>
         <section class="abilities">
-            <h2>Habilidades</h2>
+            <h2 id="skills">Habilidades</h2>
             <ul>
-                <li>Liderazgo</li>
-                <li>Trabajo en equipo</li>
-                <li>Lógica de programación</li>
-                <li>Aprendizaje autodidacta</li>
+                <li id="skill1">Liderazgo</li>
+                <li id="skill2">Trabajo en equipo</li>
+                <li id="skill3">Lógica de programación</li>
+                <li id="skill4">Aprendizaje autodidacta</li>
             </ul>
         </section>
         <section class="personal-interests">
-            <h2>Intereses personales</h2>
+            <h2 id="interests">Intereses personales</h2>
             <ul>
-                <li>Programación</li>
-                <li>Energía eléctrica</li>
-                <li>Robótica</li>
-                <li>Videojuegos</li>
-                <li>Blogging</li>
-                <li>Creación de contenido para YouTube</li>
-                <li>Fútbol</li>
+                <li id="interest1">Programación</li>
+                <li id="interest2">Energía eléctrica</li>
+                <li id="interest3">Robótica</li>
+                <li id="interest4">Videojuegos</li>
+                <li id="interest5">Blogging</li>
+                <li id="interest6">Creación de contenido para YouTube</li>
+                <li id="interest7">Fútbol</li>
             </ul>
         </section>
-        <section class="select-language">
-            <a href="about_me_en.html">
-                <img src="images/Estados_Unidos.png">
-            </a>
+        <section class="cv">
+            <a id="download-cv" href="files/CVSantiagoRamirezPerez.pdf" target="_blank" download="CV Santiago Ramirez Perez">Descargar CV</a>
         </section>
+        <section class="select-language">
+            <img id="USA"src="images/Estados_Unidos.png">
+            <img  id="Colombia" src="images/Colombia.png">
+
+    </section>
     </div>
     <footer>
         <div class="footer-info">
             <div class="colum1-footer">
-                <h1>Objetivo de la página</h1>
-                <p>Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
-                    como programador.</p>
+                <h1 id="purpose">Objetivo de la página</h1>
+                <p id="purpose-description">Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
+                    como programador</p>
             </div>
             <div class="colum2-footer">
-                <h1>Redes Sociales</h1>
+                <h1 id="social-networks">Redes Sociales</h1>
                 <div class="row-footer">
                     <a href="https://www.linkedin.com/in/santiagoramirezperez/" target="_blank"><img
-                            src="../images/linkedin.png" /></a>
+                            src="../images/linkedin.png" alt="" /></a>
                     <label>/santiagoramirezperez</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://www.facebook.com/s.ramirezp10" target="_blank"><img
-                            src="../images/facebook.png" /></a>
+                    <a href="https://www.facebook.com/s.ramirezp10" target="_blank"><img src="../images/facebook.png"
+                            alt="" /></a>
                     <label>/s.ramirezp10</label>
                 </div>
                 <div class="row-footer">
                     <a href="https://www.instagram.com/s_ramirezp10/ " target=" _blank"><img
-                            src="../images/instagram.png" /></a>
+                            src="../images/instagram.png" alt="" /></a>
                     <label>@s_ramirezp10</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://www.tiktok.com/@s.ramirezp10" target="_blank"><img
-                            src="../images/tiktok.png" /></a>
+                    <a href="https://www.tiktok.com/@s.ramirezp10" target="_blank"><img src="../images/tiktok.png"
+                            alt="" /></a>
                     <label>@s.ramirezp10</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://twitter.com/s_ramirezp10" target="_blank"><img src="../images/twitter.png" /></a>
+                    <a href="https://twitter.com/s_ramirezp10" target="_blank"><img src="../images/twitter.png"
+                            alt="" /></a>
                     <label>@s_ramirezp10</label>
                 </div>
             </div>
             <div class="colum3-footer">
-                <h1>Información de contacto</h1>
+                <h1 id="contact-information">Información de contacto</h1>
                 <div class="row-footer">
-                    <img src="../images/ubicacion.png" />
+                    <img src="../images/ubicacion.png" alt="" />
                     <label>Medellín, Colombia</label>
                 </div>
                 <div class="row-footer">
                     <a href="https://api.whatsapp.com/send?phone=573503783575" target="_blank"><img
-                            src="../images/whatsapp.png" /></a>
+                            src="../images/whatsapp.png" alt="" /></a>
                     <label>+57-3503783575</label>
                 </div>
                 <div class="row-footer">
-                    <img src="../images/gmail.png" />
+                    <img src="../images/gmail.png" alt="" />
                     <label>santiagoramirezperez96</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://github.com/santiagoramirez10" target="_blank"><img
-                            src="../images/github.png" /></a>
+                    <a href="https://github.com/santiagoramirez10" target="_blank"><img src="../images/github.png"
+                            alt="" /></a>
                     <label>/santiagoramirez10</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://www.youtube.com/@s_ramirezp10" target="_blank"><img
-                            src="../images/youtube.png" /></a>
+                    <a href="https://www.youtube.com/@s_ramirezp10" target="_blank"><img src="../images/youtube.png"
+                            alt="" /></a>
                     <label>@s_ramirezp10</label>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>© 2022 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
+            <p id="copyright">© 2023 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
         </div>
     </footer>
 </body>

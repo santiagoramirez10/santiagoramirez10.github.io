@@ -125,12 +125,12 @@ h2 {
     position: fixed;
     top: 100px;
     right: 10px;
-    color: #1CA56F;
+    color: #3C5A98;
     background-color: #FFFFFF;
     text-decoration: none;
 }
 .back-arrow a:hover{
-    color: #FCA62F;
+    color: #663398;
 }
 
 @media (max-width: 750px) {

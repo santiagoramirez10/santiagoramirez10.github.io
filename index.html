@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="description"
@@ -18,34 +17,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
     <script defer src="js/app.js"></script>
+    <script defer src="js/languages.js"></script>
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <title>Inicio-SRP</title>
 </head>
-
 <body>
     <header>
         <nav class="nav-header">
-            <a href="index.html" class="name">SANTIAGO R. P.</a>
+            <a href="index.html"  id="name" class="name">SANTIAGO R. P.</a>
             <button class="nav-toggle" aria-label="Open menu">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="about_me.html">Sobre mí</a></li>
-                <li class="nav-menu-item"><a href="my_projects.html">Mis proyectos</a></li>
-                <li class="nav-menu-item"><a href="blog.html">Blog</a></li>
-                <li class="nav-menu-item"><a href="contact.html">Contacto</a></li>
+                <li class="nav-menu-item"><a id="about-me" href="about_me.html">Sobre mí</a></li>
+                <li class="nav-menu-item"><a id="my-projects" href="my_projects.html">Mis proyectos</a></li>
+                <li class="nav-menu-item"><a id="blog" href="blog.html">Blog</a></li>
+                <li class="nav-menu-item"><a id="contact" href="contact.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
-        <h1>Bienvenidos</h1>
+        <h1 id="h1-index">Bienvenidos</h1>
         <section class="my-info">
             <img src="images/Perfil.png">
             <h2>Santiago Ramírez Pérez</h2>
-            <p>Estudiante de ingeniería eléctrica|Programador Python y Arduino|Desarrollador frontend junior</p>
+            <p id="description-index">Estudiante de ingeniería eléctrica|Programador Python y Arduino|Desarrollador front-end junior</p>
         </section>
-        <section class="notable-proyects">
-            <h2>Proyectos destacados</h2>
+        <section class="notable-projects">
+            <h2 id="notable-projects">Proyectos destacados</h2>
             <div id="carouselExampleDark" class="carousel carousel-dark slide" style="margin-top: 20px;">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -92,27 +91,26 @@
             </div>
         </section>
         <section class="last-video">
-            <h2>Último tutorial de YouTube</h2>
+            <h2 id="last-video">Último tutorial de YouTube</h2>
             <div class="index-video">
                 <iframe src="https://www.youtube.com/embed/PWeVp0hOesM" title="YouTube video player"
                     allowfullscreen></iframe>
             </div>
         </section>
         <section class="select-language">
-            <a href="index_en.html">
-                <img src="images/Estados_Unidos.png">
-            </a>
-        </section>
+            <img id="USA"src="images/Estados_Unidos.png">
+            <img  id="Colombia" src="images/Colombia.png">
+    </section>
     </div>
     <footer>
         <div class="footer-info">
             <div class="colum1-footer">
-                <h1>Objetivo de la página</h1>
-                <p>Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
-                    como programador.</p>
+                <h1 id="purpose">Objetivo de la página</h1>
+                <p id="purpose-description">Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
+                    como programador</p>
             </div>
             <div class="colum2-footer">
-                <h1>Redes Sociales</h1>
+                <h1 id="social-networks">Redes Sociales</h1>
                 <div class="row-footer">
                     <a href="https://www.linkedin.com/in/santiagoramirezperez/" target="_blank"><img
                             src="../images/linkedin.png" alt="" /></a>
@@ -140,7 +138,7 @@
                 </div>
             </div>
             <div class="colum3-footer">
-                <h1>Información de contacto</h1>
+                <h1 id="contact-information">Información de contacto</h1>
                 <div class="row-footer">
                     <img src="../images/ubicacion.png" alt="" />
                     <label>Medellín, Colombia</label>
@@ -167,9 +165,8 @@
             </div>
         </div>
         <div class="copyright">
-            <p>© 2022 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
+            <p id="copyright">© 2023 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
         </div>
     </footer>
 </body>
-
 </html>

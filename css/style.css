@@ -1,58 +1,68 @@
 /*general*/
-*{
+* {
     font-family: "Lato";
 }
-a{
+
+a {
     text-decoration: none;
     color: #343B40;
 }
-p{
+
+p {
     margin-top: 10px;
     text-align: justify;
     font-size: 25px;
     color: #343B40;
 }
-h1{
+
+h1 {
     margin-top: 80px;
     font-size: 50px;
     text-align: center;
     color: #343B40;
 }
-h2{
+
+h2 {
     margin-top: 10px;
     font-size: 40px;
     text-align: center;
     color: #343B40;
 }
-h3{
+
+h3 {
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
     color: #343B40;
 }
-h4{
+
+h4 {
     margin-top: 10px;
     font-size: 25px;
     font-weight: normal;
-    text-align: left;  
+    text-align: left;
     color: #343B40;
 }
-table{
+
+table {
     font-size: 20px;
 }
-th{
+
+th {
     text-align: left;
     color: #1778BD;
     border: solid #1778BD;
     padding: 5px;
 }
-td{
+
+td {
     text-align: left;
     border: solid #1778BD;
     padding: 5px;
 }
+
 /*header*/
-header{
+header {
     background-color: #343B40;
     position: fixed;
     width: 100%;
@@ -61,52 +71,64 @@ header{
     left: 0;
     z-index: 100;
     margin: 0;
+    border-bottom: inset #FFFFFF;
 }
-header a{
+
+header a {
     color: #FFFFFF;
     font-weight: bold;
     padding: 5px;
     position: relative;
 }
-header a:hover{
-  color: #1778BD;
+
+header a:hover {
+    color: #1778BD;
 }
-.nav-header{
+
+.nav-header {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
 }
-.nav-header-link{
+
+.nav-header-link {
     color: white;
     text-decoration: none;
 }
-.name{
+
+.name {
     font-size: 25Px;
     font-weight: bold;
     margin: 11.75px 5%;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     margin-right: 40px;
     list-style: none;
     align-items: center;
     margin: 12.5px;
 }
-.nav-menu-item{
+
+.nav-menu-item {
     font-size: 20px;
     margin: 0 10px;
     text-transform: uppercase;
     width: max-content;
 }
-.nav-menu-link{
+
+.nav-menu-link {
     padding: 8px 12px;
     border-radius: 3px;
 }
-.nav-menu-link:hover, .nav-menu-link_active{
+
+.nav-menu-link:hover,
+.nav-menu-link_active {
     background-color: #FFFFFF;
     transition: 0.5s;
 }
-.nav-toggle{
+
+.nav-toggle {
     color: #FFFFFF;
     background: none;
     border: none;
@@ -116,55 +138,67 @@ header a:hover{
     cursor: pointer;
     display: none;
 }
+
 /*footer*/
-footer{
+footer {
     width: 100%;
     height: auto;
     background: #343B40;
     margin: 5% 0% 0% 0%;
 }
-.footer-info{
+
+.footer-info {
     display: flex;
     justify-content: space-between;
     margin: 0% auto;
 }
-.footer-info h1{
+
+.footer-info h1 {
     font-size: 25px;
     margin: 5% 0%;
     text-align: left;
     color: #FFFFFF;
 }
-.footer-info p{
+
+.footer-info p {
     font-size: 20px;
     color: #FFFFFF;
 }
-.colum1-footer, .colum2-footer, .colum3-footer{
+
+.colum1-footer,
+.colum2-footer,
+.colum3-footer {
     width: 30%;
     margin: auto;
 }
-.row-footer{
+
+.row-footer {
     display: flex;
     margin: 3% 0%;
 }
-.row-footer img{
+
+.row-footer img {
     width: 30px;
     height: auto;
     background-color: #343B40;
     border-radius: 100%;
 }
-.row-footer label{
+
+.row-footer label {
     font-size: 15px;
     text-decoration: none;
     color: #000000;
     margin: auto 1%;
     color: #FFFFFF;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     height: 50px;
     border-top: inset #FFFFFF;
 }
-.copyright p{
+
+.copyright p {
     width: 100%;
     height: 20px;
     text-decoration: none;
@@ -173,135 +207,187 @@ footer{
     text-align: center;
 }
 /*language*/
-.select-language a{
-    position:fixed;
-    width:60px;
-    height:60px;
-    line-height: 63px;
-    top:150px;
-    right:0px;
+.select-language {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 150px;
+    right: 0px;
 }
-.select-language img{
-    width:50px;
-    height:50px;
-    position: relative;
+
+.select-language img {
+    width: 50px;
+    height: 50px;
     opacity: 0.5;
+    cursor: pointer;
 }
-.select-language img:hover{
+
+#Colombia {
+    position: fixed;
+    visibility: hidden;
+    z-index: -1;
+}
+
+#USA {
+    position: fixed;
+    visibility: visible;
+    z-index: 1;
+}
+
+.select-language img:hover {
     opacity: 1;
 }
+
 /*index*/
-.my-info img{
+.my-info img {
     max-width: 200px;
     display: block;
     margin: auto;
 }
-.my-info p{
+
+.my-info p {
     text-align: center;
     font-size: 30px;
 }
-.last-video{
+
+.last-video {
     width: 100%;
     height: auto;
     display: block;
     margin: 5% 0%;
 }
+
 .index-video {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	position: relative;
-	}
-.index-video iframe, .index-video object, .index-video embed {
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
 }
+
+.index-video iframe,
+.index-video object,
+.index-video embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
 /*about_me*/
 .me {
     padding-top: 20px;
     display: inline-block;
 }
-.my-courses{
+
+.my-courses {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-.course{
+
+.course {
     width: 300px;
 }
-.course .card{
+
+.course .card {
     background-color: #1778BD;
     border: solid #FFFFFF;
     border-radius: 5%;
     color: #FFFFFF;
     padding: 20px;
 }
-.course h5{
+
+.course h5 {
     font-size: 25px;
     font-weight: bold;
     color: #FFFFFF;
 }
-.course p{
+
+.course p {
     text-align: left;
     font-size: 20px;
     color: #FFFFFF;
 }
-.course a{
+
+.course a {
     background-color: #FFFFFF;
     color: #1778BD;
 }
-.course a:hover{
+
+.course a:hover {
     background-color: #FFFFFF;
     color: #1778BD;
 }
-.programming-laguages{
+
+.programming-laguages {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.language{
+
+.language {
     display: inline-block;
     margin: 0% 1%;
 }
-.language h3{ 
+
+.language h3 {
     font-size: 25px;
     margin: 2%;
 }
-.progress{
+
+.progress {
     height: 100%;
     width: 300px;
     background: #343B40;
 }
-.work-experience h2{
+
+.work-experience h2 {
     margin: 5% 0% 0%;
 }
-.work-experience h3{
+
+.work-experience h3 {
     text-align: left;
 }
-.work-experience h4{
+
+.work-experience h4 {
     text-align: justify;
 }
-.abilities{
+
+.abilities {
     margin-top: 30px;
 }
-.abilities li{
+
+.abilities li {
     font-size: 25px;
 }
-.personal-interests{
+
+.personal-interests {
     margin-top: 30px;
 }
-.personal-interests li{
+
+.personal-interests li {
     font-size: 25px;
 }
+
+.cv a {
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #1778BD;
+    color: #FFFFFF;
+    border-radius: 5%;
+}
+
 /*my_projects*/
-.my-projects{
+.my-projects {
     width: 100%;
     height: auto;
     display: flex;
@@ -309,115 +395,143 @@ footer{
     padding-top: 20px;
     justify-content: space-around;
 }
-.my-projects .card{
-    border:solid #1778BD;
+
+.my-projects .card {
+    border: solid #1778BD;
     border-radius: 5%;
     margin-top: 2vh;
 }
-.my-projects img{
+
+.my-projects img {
     width: 80%;
     margin: 5% 10%;
 }
-.my-projects a{
+
+.my-projects a {
     background-color: #1778BD;
     color: #FFFFFF;
 }
-.my-projects a:hover{
+
+.my-projects a:hover {
     background-color: #FFFFFF;
     color: #1778BD;
 }
+
 /*blog*/
-.my-blogs{
+.my-blogs {
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
 }
-.blog{
+
+.blog {
     width: 400px;
     margin: 1% auto;
     border: solid #1778BD;
     border-radius: 5%;
     display: block;
 }
-.blog a{
+
+.blog a {
     text-decoration: none;
 }
-.blog h3{
+
+.blog h3 {
     color: #1778BD;
 }
-.img-blog{
+
+.img-blog {
     width: 380px;
     height: auto;
     margin: 5px 10px;
 }
-.blog p{
+
+.blog p {
     margin: 0px 25px 5px;
 }
+
 /*blogs*/
-.weeks-portfolioSS h3{
+.weeks-portfolioSS h3 {
     margin-top: 3%;
 }
-.weeks-portfolioSS a:hover{
+
+.weeks-portfolioSS a:hover {
     color: #1778BD;
 }
-.skills{
+
+.skills {
     display: flex;
     justify-content: center;
 }
-.autorretrato{
+
+.autorretrato {
     display: flex;
     height: auto;
     align-items: center;
 }
-.autorretrato img{
+
+.autorretrato img {
     width: 40%;
     margin: 0 auto;
 }
-.convencionesar{
+
+.convencionesar {
     height: 100%;
 }
-.decalogue li{
+
+.decalogue li {
     font-size: 25px;
 }
-.skills-image{
+
+.skills-image {
     width: 70%;
     display: block;
     margin: auto;
     margin-top: 30px;
 }
-.cheats, .civilizations{
+
+.cheats,
+.civilizations {
     margin-top: 3%;
 }
-.cheats-list li{
+
+.cheats-list li {
     font-size: 25px;
 }
-.civilization h4{
+
+.civilization h4 {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 /*contact*/
 .contact-form {
     max-inline-size: 550px;
     margin: auto;
-  }
-  .contact-form label {
+}
+
+.contact-form label {
     display: block;
     margin: 10px 0px;
-  }
-  .contact-form label span {
+}
+
+.contact-form label span {
     color: #1778BD;
-  }
-  .contact-form input, .contact-form textarea {
+}
+
+.contact-form input,
+.contact-form textarea {
     box-sizing: border-box;
     width: 100%;
     height: auto;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #1778BD;
-  }
-  .send-message{
+}
+
+.send-message {
     width: 110px;
     height: auto;
     display: block;
@@ -429,66 +543,79 @@ footer{
     text-align: center;
     cursor: pointer;
 }
+
 /*Dispositivos móviles*/
 @media (max-width: 650px) {
+
     /*General*/
-    p{
+    p {
         margin-top: 10px;
         text-align: justify;
         font-size: 20px;
     }
-    h1{
+
+    h1 {
         margin-top: 80px;
         font-size: 45px;
         text-align: center;
     }
-    h2{
+
+    h2 {
         margin-top: 10px;
         font-size: 35px;
         text-align: center;
     }
-    h3{
+
+    h3 {
         margin-top: 10px;
         font-size: 25px;
         text-align: center;
     }
-    h4{
+
+    h4 {
         margin-top: 10px;
         font-size: 20px;
         font-weight: normal;
-        text-align: left;  
+        text-align: left;
     }
-    table{
+
+    table {
         font-size: 15px;
     }
-    th{
+
+    th {
         text-align: left;
         color: #1778BD;
         border: 0.5px solid #1778BD;
         padding: 2px;
     }
-    td{
+
+    td {
         text-align: left;
         border: 0.5px solid #1778BD;
         padding: 2px;
     }
+
     /*blog*/
-    .blog{
+    .blog {
         width: 90%;
         margin: 1% 5%;
         border: solid #000000;
         border-radius: 5%;
         display: block;
     }
-    .img-blog{
+
+    .img-blog {
         width: 90%;
         height: auto;
         margin: 1% 5%;
     }
 }
+
 @media (max-width: 900px) {
+
     /*header*/
-    .nav-menu{
+    .nav-menu {
         flex-direction: column;
         background-color: #343B40;
         position: fixed;
@@ -500,50 +627,66 @@ footer{
         margin: 0;
         padding: 0;
     }
+
     .nav-menu-item {
         width: 100%;
         text-align: center;
         margin: 5% 0%;
     }
+
     .nav-toggle {
         display: block;
+        color: #FFFFFF;
     }
+
     .nav-menu_visible {
         left: 0;
     }
-    .nav-toggle:hover{
+
+    .nav-toggle:hover {
         color: #1778BD;
     }
+
     .nav-toggle:focus:not(:focus-visible) {
         outline: none;
     }
+
     /*Blogs*/
-    .autorretrato{
+    .autorretrato {
         display: block;
         margin: 3% auto;
     }
-    .autorretrato img{
+
+    .autorretrato img {
         width: 100%;
     }
-    .skills-image{
+
+    .skills-image {
         width: 100%;
     }
+
     /*footer*/
-    .footer-info{
+    .footer-info {
         flex-wrap: wrap;
     }
-    .footer-info h1{
+
+    .footer-info h1 {
         text-align: center;
     }
-    .colum1-footer, .colum2-footer, .colum3-footer{
+
+    .colum1-footer,
+    .colum2-footer,
+    .colum3-footer {
         margin: 5%;
         width: 100%;
     }
-    .copyright{
+
+    .copyright {
         width: 100%;
         height: 80px;
     }
-    .copyright p{
+
+    .copyright p {
         width: 100%;
         height: 40px;
     }

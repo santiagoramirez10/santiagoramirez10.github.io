@@ -18,6 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
     <script defer src="js/app.js"></script>
+    <script defer src="js/languages.js"></script>
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
     <title>Mis proyectos-SRP</title>
 </head>
@@ -25,25 +26,25 @@
 <body>
     <header>
         <nav class="nav-header">
-            <a href="index.html" class="name">SANTIAGO R. P.</a>
+            <a href="index.html" id="name" class="name">SANTIAGO R. P.</a>
             <button class="nav-toggle" aria-label="Open menu">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="about_me.html">Sobre mí</a></li>
-                <li class="nav-menu-item"><a href="my_projects.html">Mis proyectos</a></li>
-                <li class="nav-menu-item"><a href="blog.html">Blog</a></li>
-                <li class="nav-menu-item"><a href="contact.html">Contacto</a></li>
+                <li class="nav-menu-item"><a id="about-me" href="about_me.html">Sobre mí</a></li>
+                <li class="nav-menu-item"><a id="my-projects" href="my_projects.html">Mis proyectos</a></li>
+                <li class="nav-menu-item"><a id="blog" href="blog.html">Blog</a></li>
+                <li class="nav-menu-item"><a id="contact" href="contact.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
-        <h1>Proyectos de programación</h1>
+        <h1 id="h1-projects">Proyectos de programación</h1>
         <section class="my-projects">
             <div class="card" style="width: 18rem;">
                 <img src="images/sapiencia.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Clon página de Sapiencia</h5>
+                    <h5 id="project1" class="card-title">Clon página de Sapiencia</h5>
                     <p class="card-text">HTML-CSS</p>
                     <a href="projects/Homepage_sapiencia/index.html" class="btn btn-primary">Ver proyecto</a>
                 </div>
@@ -51,7 +52,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/fruver_master.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Página de un fruver</h5>
+                    <h5 id="project2" class="card-title">Página de un fruver</h5>
                     <p class="card-text">HTML-CSS-JavaScript</p>
                     <a href="projects/Fruver_master/index.html" class="btn btn-primary">Ver proyecto</a>
                 </div>
@@ -59,7 +60,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/matriz_identidad.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Matriz identidad</h5>
+                    <h5 id="project3" class="card-title">Matriz identidad</h5>
                     <p class="card-text">Python</p>
                     <a href="https://github.com/santiagoramirez10/Matematicas_en_python/tree/main/Matriz_identidad"
                         target="_blank" class="btn btn-primary">Ver proyecto</a>
@@ -68,7 +69,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/reto_innovacion.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Reto innovación social</h5>
+                    <h5 id="project4" class="card-title">Reto innovación social</h5>
                     <p class="card-text">Python-SQL</p>
                     <a href="https://github.com/santiagoramirez10/Proyectos_Python/tree/main/Innovacion%20social"
                         target="_blank" class="btn btn-primary">Ver proyecto</a>
@@ -77,7 +78,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/Semaforo.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Semáforo inteligente</h5>
+                    <h5 id="project5" class="card-title">Semáforo inteligente</h5>
                     <p class="card-text">Arduino</p>
                     <a href="https://github.com/santiagoramirez10/LEDs/tree/main/Semaforo" target="_blank"
                         class="btn btn-primary">Ver proyecto</a>
@@ -86,7 +87,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/Fotocelda.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">LED con fotocelda</h5>
+                    <h5 id="project6" class="card-title">LED con fotocelda</h5>
                     <p class="card-text">Arduino</p>
                     <a href="https://github.com/santiagoramirez10/LEDs/tree/main/LED_Fotocelda" target="_blank"
                         class="btn btn-primary">Ver proyecto</a>
@@ -95,7 +96,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/Display7s1p.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Contador de 0 a 9</h5>
+                    <h5 id="project7" class="card-title">Contador de 0 a 9</h5>
                     <p class="card-text">Arduino</p>
                     <a href="https://github.com/santiagoramirez10/Displays/tree/main/Display7S1P" target="_blank"
                         class="btn btn-primary">Ver proyecto</a>
@@ -104,7 +105,7 @@
             <div class="card" style="width: 18rem;">
                 <img src="images/Displaylcd12x2.png" class="card-img-top" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Hola mundo en pantalla</h5>
+                    <h5 id="project8" class="card-title">Hola mundo en pantalla</h5>
                     <p class="card-text">Arduino</p>
                     <a href="https://github.com/santiagoramirez10/Displays/tree/main/LCD16x2" target="_blank"
                         class="btn btn-primary">Ver proyecto</a>
@@ -112,74 +113,76 @@
             </div>
         </section>
         <section class="select-language">
-            <a href="my_projects_en.html">
-                <img src="images/Estados_Unidos.png">
-            </a>
+            <img id="USA" src="images/Estados_Unidos.png">
+            <img id="Colombia" src="images/Colombia.png">
+
         </section>
     </div>
     <footer>
         <div class="footer-info">
             <div class="colum1-footer">
-                <h1>Objetivo de la página</h1>
-                <p>Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus proyectos y sus habilidades
-                    como programador.</p>
+                <h1 id="purpose">Objetivo de la página</h1>
+                <p id="purpose-description">Este es un portaolio creado por Santiago Ramírez Pérez para mostrar sus
+                    proyectos y sus habilidades
+                    como programador</p>
             </div>
             <div class="colum2-footer">
-                <h1>Redes Sociales</h1>
+                <h1 id="social-networks">Redes Sociales</h1>
                 <div class="row-footer">
                     <a href="https://www.linkedin.com/in/santiagoramirezperez/" target="_blank"><img
-                            src="../images/linkedin.png" /></a>
+                            src="../images/linkedin.png" alt="" /></a>
                     <label>/santiagoramirezperez</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://www.facebook.com/s.ramirezp10" target="_blank"><img
-                            src="../images/facebook.png" /></a>
+                    <a href="https://www.facebook.com/s.ramirezp10" target="_blank"><img src="../images/facebook.png"
+                            alt="" /></a>
                     <label>/s.ramirezp10</label>
                 </div>
                 <div class="row-footer">
                     <a href="https://www.instagram.com/s_ramirezp10/ " target=" _blank"><img
-                            src="../images/instagram.png" /></a>
+                            src="../images/instagram.png" alt="" /></a>
                     <label>@s_ramirezp10</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://www.tiktok.com/@s.ramirezp10" target="_blank"><img
-                            src="../images/tiktok.png" /></a>
+                    <a href="https://www.tiktok.com/@s.ramirezp10" target="_blank"><img src="../images/tiktok.png"
+                            alt="" /></a>
                     <label>@s.ramirezp10</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://twitter.com/s_ramirezp10" target="_blank"><img src="../images/twitter.png" /></a>
+                    <a href="https://twitter.com/s_ramirezp10" target="_blank"><img src="../images/twitter.png"
+                            alt="" /></a>
                     <label>@s_ramirezp10</label>
                 </div>
             </div>
             <div class="colum3-footer">
-                <h1>Información de contacto</h1>
+                <h1 id="contact-information">Información de contacto</h1>
                 <div class="row-footer">
-                    <img src="../images/ubicacion.png" />
+                    <img src="../images/ubicacion.png" alt="" />
                     <label>Medellín, Colombia</label>
                 </div>
                 <div class="row-footer">
                     <a href="https://api.whatsapp.com/send?phone=573503783575" target="_blank"><img
-                            src="../images/whatsapp.png" /></a>
+                            src="../images/whatsapp.png" alt="" /></a>
                     <label>+57-3503783575</label>
                 </div>
                 <div class="row-footer">
-                    <img src="../images/gmail.png" />
+                    <img src="../images/gmail.png" alt="" />
                     <label>santiagoramirezperez96</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://github.com/santiagoramirez10" target="_blank"><img
-                            src="../images/github.png" /></a>
+                    <a href="https://github.com/santiagoramirez10" target="_blank"><img src="../images/github.png"
+                            alt="" /></a>
                     <label>/santiagoramirez10</label>
                 </div>
                 <div class="row-footer">
-                    <a href="https://www.youtube.com/@s_ramirezp10" target="_blank"><img
-                            src="../images/youtube.png" /></a>
+                    <a href="https://www.youtube.com/@s_ramirezp10" target="_blank"><img src="../images/youtube.png"
+                            alt="" /></a>
                     <label>@s_ramirezp10</label>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>© 2022 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
+            <p id="copyright">© 2023 Todos los Derechos Reservados | Santiago Ramírez Pérez</p>
         </div>
     </footer>
 </body>

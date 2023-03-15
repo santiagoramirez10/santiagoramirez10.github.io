@@ -5,20 +5,20 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
-import { IndexComponent } from './index/index.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
     MyProjectsComponent,
-    IndexComponent,
     BlogComponent,
     ContactComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,routing

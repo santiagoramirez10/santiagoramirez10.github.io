@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-my-projects',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./my-projects.component.css']
 })
 export class MyProjectsComponent {
+  constructor(private title:Title){
+    title.setTitle("Mis proyectos-Portafolio Santiago Ramírez Pérez")
+  }
 
 }

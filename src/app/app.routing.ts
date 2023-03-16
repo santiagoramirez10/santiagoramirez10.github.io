@@ -8,7 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes = [
-    { path: 'home', component: HomeComponent },
+    { path: '/', component: HomeComponent },
     { path: 'about-me', component: AboutMeComponent },
     { path: "my-projects", component: MyProjectsComponent },
     { path: "blog", component: BlogComponent },

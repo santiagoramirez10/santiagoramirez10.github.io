@@ -1,4 +1,3 @@
-// app.routing.ts
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';

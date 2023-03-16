@@ -8,11 +8,12 @@ import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes = [
-    { path: '', component: HomeComponent },
-    { path: 'about-me', component: AboutMeComponent },
+    { path: "", component: HomeComponent },
+    { path: "home", component: HomeComponent },
+    { path: "about-me", component: AboutMeComponent },
     { path: "my-projects", component: MyProjectsComponent },
     { path: "blog", component: BlogComponent },
     { path: "contact", component: ContactComponent },
-    {path: '**', component: PageNotFoundComponent}
+    { path: '**', component: PageNotFoundComponent }
 ];
 export const routing = RouterModule.forRoot(appRoutes);

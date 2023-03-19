@@ -1,0 +1,36 @@
+  .my-projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    justify-content: space-around;
+  }
+  
+  .my-projects .card {
+    border: solid #FFFFFF;
+    border-radius: 5%;
+    margin-top: 2vh;
+    background-color: #0e4b76;
+  }
+  
+  .my-projects img {
+    width: 80%;
+    margin: 5% 10%;
+  }
+  
+  .my-projects a {
+    background-color: #FFFFFF;
+    color: #1778BD;
+  }
+  
+  .my-projects a:hover {
+    background-color: #1778BD;
+    color: #FFFFFF;
+  }
+  .my-projects h5{
+    color: #FFFFFF;
+  }
+  .my-projects p{
+    color: #FFFFFF;
+  }

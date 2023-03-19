@@ -1,0 +1,30 @@
+.my-blogs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  
+  .blog {
+    width: 400px;
+    margin: 1% auto;
+    border: solid #FFFFFF;
+    border-radius: 5%;
+    display: block;
+    background-color: #0e4b76;
+  }
+  
+  .blog a {
+    text-decoration: none;
+  }
+  
+  .blog h3 {
+    color: #FFFFFF;
+  }
+  
+  .img-blog {
+    width: 380px;
+    height: auto;
+    margin: 5px 10px;
+  }

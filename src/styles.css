@@ -373,67 +373,9 @@
     border-radius: 5%;
   }
   
-  /*my_projects*/
-  .my-projects {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    justify-content: space-around;
-  }
+
   
-  .my-projects .card {
-    border: solid #1778BD;
-    border-radius: 5%;
-    margin-top: 2vh;
-  }
   
-  .my-projects img {
-    width: 80%;
-    margin: 5% 10%;
-  }
-  
-  .my-projects a {
-    background-color: #1778BD;
-    color: #FFFFFF;
-  }
-  
-  .my-projects a:hover {
-    background-color: #FFFFFF;
-    color: #1778BD;
-  }
-  
-  /*blog*/
-  .my-blogs {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-  }
-  
-  .blog {
-    width: 400px;
-    margin: 1% auto;
-    border: solid #1778BD;
-    border-radius: 5%;
-    display: block;
-  }
-  
-  .blog a {
-    text-decoration: none;
-  }
-  
-  .blog h3 {
-    color: #1778BD;
-  }
-  
-  .img-blog {
-    width: 380px;
-    height: auto;
-    margin: 5px 10px;
-  }
   
   .blog p {
     margin: 0px 25px 5px;

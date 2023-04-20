@@ -9,6 +9,10 @@ import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { AoeiideComponent } from './blogs/aoeiide/aoeiide.component';
+import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BlogComponent,
     ContactComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent,
+    FooterComponent,
+    AoeiideComponent,
+    PortfolioSSComponent
   ],
   imports: [
     BrowserModule,routing

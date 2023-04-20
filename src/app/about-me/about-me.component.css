@@ -1,0 +1,109 @@
+.me {
+    padding-top: 20px;
+    display: inline-block;
+  }
+  
+  .my-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .course {
+    width: 300px;
+  }
+  
+  .course .card {
+    background-color: #0e4b76;
+    border: solid #FFFFFF;
+    border-radius: 5%;
+    color: #FFFFFF;
+    padding: 20px;
+  }
+  
+  .course h5 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  .course p {
+    text-align: left;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  .course a {
+    background-color: #FFFFFF;
+    color: #0e4b76;
+  }
+  
+  .course a:hover {
+    background-color: #FFFFFF;
+    color: #0e4b76;
+  }
+  
+  .programming-laguages {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .language {
+    display: inline-block;
+    margin: 0% 1%;
+  }
+  
+  .language h3 {
+    font-size: 25px;
+    margin: 2%;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 300px;
+    background: #343B40;
+  }
+  
+  .work-experience h2 {
+    margin: 5% 0% 0%;
+  }
+  
+  .work-experience h3 {
+    text-align: left;
+  }
+  
+  .work-experience h4 {
+    text-align: justify;
+  }
+  
+  .abilities {
+    margin-top: 30px;
+  }
+  
+  .abilities li {
+    font-size: 25px;
+  }
+  
+  .personal-interests {
+    margin-top: 30px;
+  }
+  
+  .personal-interests li {
+    font-size: 25px;
+  }
+  
+  .cv a {
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #0e4b76;
+    color: #FFFFFF;
+    border-radius: 5%;
+  }

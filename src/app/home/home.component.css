@@ -1,3 +1,24 @@
+.welcome {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-message {
+    max-width: 720px;
+}
+
+.welcome-message h1 {
+    margin: 0 !important;
+}
+
+.welcome-img img {
+    max-width: 250px;
+    display: flex;
+
+}
+
 .wave {
     animation-name: wave-animation;
     animation-duration: 2s;

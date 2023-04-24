@@ -15,35 +15,44 @@
   }
   
   .course .card {
-    background-color: #0e4b76;
-    border: solid #FFFFFF;
+    background-color: #457B9D;
+    border: solid #1D3557;
     border-radius: 5%;
-    color: #FFFFFF;
+    color: #F1FAEE;
     padding: 20px;
   }
   
   .course h5 {
     font-size: 25px;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #F1FAEE;
   }
   
   .course p {
     text-align: left;
     font-size: 20px;
-    color: #FFFFFF;
+    color: #F1FAEE;
   }
   
   .course a {
-    background-color: #FFFFFF;
-    color: #0e4b76;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    border: none;
   }
   
   .course a:hover {
-    background-color: #FFFFFF;
-    color: #0e4b76;
+    background-color: #A8DADC;
+    color: #1D3557;
   }
   
+
+
+
+
+
+
+
+
   .programming-laguages {
     width: 100%;
     height: auto;
@@ -65,7 +74,9 @@
   .progress {
     height: 100%;
     width: 300px;
-    background: #343B40;
+    background: #F1FAEE;
+    border: solid 1px #1D3557;
+
   }
   
   .work-experience h2 {
@@ -78,6 +89,7 @@
   
   .work-experience h4 {
     text-align: justify;
+    font-size: 20px;
   }
   
   .abilities {
@@ -85,7 +97,7 @@
   }
   
   .abilities li {
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .personal-interests {
@@ -93,7 +105,7 @@
   }
   
   .personal-interests li {
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .cv a {
@@ -106,4 +118,7 @@
     background-color: #0e4b76;
     color: #FFFFFF;
     border-radius: 5%;
+  }
+  .cv:hover a{
+    background-color: #457B9D;
   }

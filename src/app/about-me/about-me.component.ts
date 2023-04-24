@@ -7,7 +7,7 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./about-me.component.css']
 })
 export class AboutMeComponent {
-  constructor(private title:Title){
+  constructor(private title: Title) {
     title.setTitle("Sobre mí-Portafolio Santiago Ramírez Pérez")
   }
 

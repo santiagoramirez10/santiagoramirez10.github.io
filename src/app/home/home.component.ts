@@ -7,6 +7,9 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./home.component.css']
 })
 
+
+
+
 export class HomeComponent {
   constructor(private title:Title){
     title.setTitle("Inicio-Portafolio Santiago Ramírez Pérez")

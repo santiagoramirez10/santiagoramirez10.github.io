@@ -13,6 +13,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AoeiideComponent } from './blogs/aoeiide/aoeiide.component';
 import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
+import { ProjectsPythonComponent } from './projects-python/projects-python.component';
+import { ProjectsArduinoComponent } from './projects-arduino/projects-arduino.component';
+import { ProjectsRComponent } from './projects-r/projects-r.component';
+import { ProjectsHtmlCssJavascriptComponent } from './projects-html-css-javascript/projects-html-css-javascript.component';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.componen
     NavbarComponent,
     FooterComponent,
     AoeiideComponent,
-    PortfolioSSComponent
+    PortfolioSSComponent,
+    ProjectsPythonComponent,
+    ProjectsArduinoComponent,
+    ProjectsRComponent,
+    ProjectsHtmlCssJavascriptComponent
   ],
   imports: [
     BrowserModule,routing

@@ -8,10 +8,10 @@
   }
   
   .my-projects .card {
-    border: solid #FFFFFF;
+    border: solid #1D3557;
     border-radius: 5%;
     margin-top: 2vh;
-    background-color: #0e4b76;
+    background-color: #A8DADC;
   }
   
   .my-projects img {
@@ -20,17 +20,15 @@
   }
   
   .my-projects a {
-    background-color: #FFFFFF;
-    color: #1778BD;
+    background-color: #F1FAEE;
+    color: #1D3557;
+    border: none;
   }
   
   .my-projects a:hover {
-    background-color: #1778BD;
-    color: #FFFFFF;
+    background-color: #457B9D;
+    color: #F1FAEE;
   }
   .my-projects h5{
-    color: #FFFFFF;
-  }
-  .my-projects p{
-    color: #FFFFFF;
+    color: #1D3557;
   }

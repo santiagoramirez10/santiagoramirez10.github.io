@@ -1,0 +1,32 @@
+[
+    {
+        "course": "Ingeniería eléctrica",
+        "school": "Universidad de Antioquia",
+        "year": "2014-actual"
+    },
+    {
+        "course": "Curso desarrollador backend",
+        "school": "EAFIT",
+        "year": "2023-actual"
+    },
+    {
+        "course": "Curso desarrollador frontend",
+        "school": "EAFIT",
+        "year": "2023"
+    },
+    {
+        "course": "Curso desarrollador full-stack nivel junior",
+        "school": "IME Escuelas Técnicas",
+        "year": "2022"
+    },
+    {
+        "course": "Curso energía solar fotovoltaica",
+        "school": "AIE Universidad de Antioquia",
+        "year": "2022"
+    },
+    {
+        "course": "Programador de videojuegos nivel 1",
+        "school": "Ubicua Technology",
+        "year": "2022"
+    }
+]

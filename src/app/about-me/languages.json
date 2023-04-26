@@ -1,0 +1,34 @@
+[
+    {
+        "language": "HTML",
+        "percentage": "75%"
+    },
+    {
+        "language": "CSS",
+        "percentage": "75%"
+    },
+    {
+        "language": "Python",
+        "percentage": "70%"
+    },
+    {
+        "language": "Arduino",
+        "percentage": "70%"
+    },
+    {
+        "language": "JavaScript",
+        "percentage": "50%"
+    },
+    {
+        "language": "C++",
+        "percentage": "30%"
+    },
+    {
+        "language": "R",
+        "percentage": "15%"
+    },
+    {
+        "language": "SQL",
+        "percentage": "15%"
+    }
+]

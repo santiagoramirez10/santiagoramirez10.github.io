@@ -45,14 +45,6 @@
     color: #1D3557;
   }
   
-
-
-
-
-
-
-
-
   .programming-laguages {
     width: 100%;
     height: auto;
@@ -63,7 +55,7 @@
   
   .language {
     display: inline-block;
-    margin: 0% 1%;
+    margin: 5px;
   }
   
   .language h3 {

@@ -9,10 +9,10 @@
   .blog {
     width: 400px;
     margin: 1% auto;
-    border: solid #FFFFFF;
+    border: solid #1D3557;
     border-radius: 5%;
     display: block;
-    background-color: #0e4b76;
+    background-color: #A8DADC;
   }
   
   .blog a {
@@ -20,7 +20,7 @@
   }
   
   .blog h3 {
-    color: #FFFFFF;
+    color: #1D3557;
   }
   
   .img-blog {

@@ -1,9 +1,14 @@
 <header>
   <nav class="nav-header">
     <a routerLink="/home" id="name" class="name">SANTIAGO R. P.</a>
-    <button class="nav-toggle" aria-label="Open menu">
-      <i class="fas fa-bars"></i>
-    </button>
+    <input type="checkbox" id="nav-check">
+    <div class="nav-toggle">
+      <label class="label"for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
     <ul class="nav-menu">
       <li class="nav-menu-item"><a id="about-me" routerLink="/about-me">Sobre mí</a></li>
       <li class="nav-menu-item"><a id="my-projects" routerLink="/my-projects">Mis proyectos</a></li>

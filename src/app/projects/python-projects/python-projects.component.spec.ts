@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProjectsPythonComponent } from './projects-python.component';
+import { PythonProjectsComponent } from './python-projects.component';
 
-describe('ProjectsPythonComponent', () => {
-  let component: ProjectsPythonComponent;
-  let fixture: ComponentFixture<ProjectsPythonComponent>;
+describe('PythonProjectsComponent', () => {
+  let component: PythonProjectsComponent;
+  let fixture: ComponentFixture<PythonProjectsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProjectsPythonComponent ]
+      declarations: [ PythonProjectsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ProjectsPythonComponent);
+    fixture = TestBed.createComponent(PythonProjectsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

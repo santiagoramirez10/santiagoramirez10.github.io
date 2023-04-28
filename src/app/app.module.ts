@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -13,11 +12,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AoeiideComponent } from './blogs/aoeiide/aoeiide.component';
 import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
-import { ProjectsPythonComponent } from './projects-python/projects-python.component';
-import { ProjectsArduinoComponent } from './projects-arduino/projects-arduino.component';
-import { ProjectsRComponent } from './projects-r/projects-r.component';
-import { ProjectsHtmlCssJavascriptComponent } from './projects-html-css-javascript/projects-html-css-javascript.component';
-
+import { ArduinoProjectsComponent } from './projects/arduino-projects/arduino-projects.component';
+import { HtmlCssJavascriptProjectsComponent } from './projects/html-css-javascript-projects/html-css-javascript-projects.component';
+import { PythonProjectsComponent } from './projects/python-projects/python-projects.component';
+import { RProjectsComponent } from './projects/r-projects/r-projects.component';
 
 @NgModule({
   declarations: [
@@ -32,15 +30,16 @@ import { ProjectsHtmlCssJavascriptComponent } from './projects-html-css-javascri
     FooterComponent,
     AoeiideComponent,
     PortfolioSSComponent,
-    ProjectsPythonComponent,
-    ProjectsArduinoComponent,
-    ProjectsRComponent,
-    ProjectsHtmlCssJavascriptComponent
+    ArduinoProjectsComponent,
+    HtmlCssJavascriptProjectsComponent,
+    PythonProjectsComponent,
+    RProjectsComponent,
   ],
   imports: [
-    BrowserModule,routing
+    BrowserModule, routing
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

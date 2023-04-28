@@ -1,0 +1,26 @@
+[
+    {
+        "image": "../../assets/images/arduino.png",
+        "alt": "Logo de Arduino",
+        "language": "Arduino",
+        "link": "/arduino-projects"
+    },
+    {
+        "image": "../../assets/images/html-css-javascript.png",
+        "alt": "Logos de HTML, CSS y JavaScript",
+        "language": "HTML-CSS-JavaScript",
+        "link": "/html-css-javascript-projects"
+    },
+    {
+        "image": "../../assets/images/python.png",
+        "alt": "Logo de Python",
+        "language": "Python",
+        "link": "/python-projects"
+    },
+    {
+        "image": "../../assets/images/r.png",
+        "alt": "Logo de R",
+        "language": "R",
+        "link": "/r-projects"
+    }
+]

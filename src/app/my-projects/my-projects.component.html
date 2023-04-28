@@ -1,32 +1,12 @@
-
-    <h1 id="h1-projects">Proyectos de programación</h1>
-    <section class="my-projects">
+<h1 id="h1-projects">Proyectos de programación</h1>
+<section class="my-projects">
+    <div *ngFor="let Project of Projects">
         <div class="card" style="width: 18rem;">
-            <img src="../../assets/images/python.png" class="card-img-top" alt="">
+            <img src="{{Project.image}}" class="card-img-top" alt="{{Project.alt}}">
             <div class="card-body">
-                <h5 id="project1" class="card-title">Python</h5>
-                <a routerLink="/projects-python" class="btn btn-primary">Ver proyectos</a>
+                <h5 id="project1" class="card-title">{{Project.language}}</h5>
+                <a routerLink="{{Project.link}}"class="btn btn-primary">Ver proyectos</a>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../assets/images/arduino.png" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 id="project1" class="card-title">Arduino</h5>
-                <a routerLink="/projects-arduino" class="btn btn-primary">Ver proyectos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../assets/images/html-javascript-css.png" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 id="project1" class="card-title">HTML-CSS-JavaScript</h5>
-                <a routerLink="/projects-html-css-javascript" class="btn btn-primary">Ver proyectos</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="../../assets/images/r.png" class="card-img-top" alt="">
-            <div class="card-body">
-                <h5 id="project1" class="card-title">R</h5>
-                <a routerLink="/projects-r" class="btn btn-primary">Ver proyectos</a>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>

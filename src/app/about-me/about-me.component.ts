@@ -32,7 +32,7 @@ export class AboutMeComponent {
   OtherCourses: OTHERCOURSES[] = OtherCoursesJson;
   Languages: LANGUAGES[] = LanguagesJson;
   constructor(private title: Title) {
-    title.setTitle("Sobre mí-Portafolio Santiago Ramírez Pérez")
+    title.setTitle("Sobre mí-Portafolio Santiago Ramírez Pérez");
     console.log(this.Courses);
     console.log(this.OtherCourses);
     console.log(this.Languages);

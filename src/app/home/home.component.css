@@ -61,6 +61,12 @@
     }
 }
 
+
+.tinkercad-projects iframe {
+    width: 100%;
+    height: 56.25vw;
+}
+
 .last-video {
     width: 100%;
     height: auto;

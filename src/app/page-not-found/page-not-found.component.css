@@ -1,0 +1,19 @@
+.not-found{
+    display: block;
+    margin: auto;
+}
+.gif-not-found{
+display: block;
+margin: auto;
+width: 480px;
+height: 366px;
+}
+
+@media (max-width: 900px) {
+    .gif-not-found{
+        display: block;
+        margin: auto;
+        width: 90vw;
+        height: 90vw;
+        }
+}

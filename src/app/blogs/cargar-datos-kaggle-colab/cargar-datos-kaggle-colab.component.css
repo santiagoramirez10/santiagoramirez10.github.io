@@ -1,0 +1,10 @@
+.tutorial-title{
+    display: flex;
+    align-items: center;
+}
+.tutorial-title img{
+    width: 50px;
+}
+.tutorial-description{
+    margin: 0 5px;
+}

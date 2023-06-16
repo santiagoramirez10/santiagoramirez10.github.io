@@ -10,6 +10,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { AoeiideComponent } from './blogs/aoeiide/aoeiide.component';
 import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
+import { CargarDatosKaggleColabComponent } from './blogs/cargar-datos-kaggle-colab/cargar-datos-kaggle-colab.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes = [
@@ -21,10 +22,11 @@ const appRoutes = [
     { path: "arduino-projects", component: ArduinoProjectsComponent },
     { path: "html-css-javascript-projects", component: HtmlCssJavascriptProjectsComponent },
     { path: "r-projects", component: RProjectsComponent },
-    { path: "blog", component: BlogComponent },
+    { path: "blog", component: BlogComponent }, 
     { path: "contact", component: ContactComponent },
     {path: "aoeiide",component: AoeiideComponent},
     {path: "portfolioSS",component: PortfolioSSComponent},
+    {path: "cargar-datos-kaggle-colab",component: CargarDatosKaggleColabComponent},
     { path: '**', component: PageNotFoundComponent }
 ];
 export const routing = RouterModule.forRoot(appRoutes);

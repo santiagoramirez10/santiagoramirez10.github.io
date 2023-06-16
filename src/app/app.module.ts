@@ -16,6 +16,7 @@ import { ArduinoProjectsComponent } from './projects/arduino-projects/arduino-pr
 import { HtmlCssJavascriptProjectsComponent } from './projects/html-css-javascript-projects/html-css-javascript-projects.component';
 import { PythonProjectsComponent } from './projects/python-projects/python-projects.component';
 import { RProjectsComponent } from './projects/r-projects/r-projects.component';
+import { CargarDatosKaggleColabComponent } from './blogs/cargar-datos-kaggle-colab/cargar-datos-kaggle-colab.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { RProjectsComponent } from './projects/r-projects/r-projects.component';
     HtmlCssJavascriptProjectsComponent,
     PythonProjectsComponent,
     RProjectsComponent,
+    CargarDatosKaggleColabComponent,
   ],
   imports: [
     BrowserModule, routing

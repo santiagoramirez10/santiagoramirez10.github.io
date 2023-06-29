@@ -4,4 +4,17 @@
 }
 .my-blogs .card{
   margin: auto;
+  border-color: #1D3557;
+}
+.blog-content{
+  margin: 15px;
+}
+.blog-content .author-img{
+  width: 25px;
+}
+
+.blog-content .author-info{
+display: flex;
+flex-wrap: wrap;
+justify-content: left;
 }

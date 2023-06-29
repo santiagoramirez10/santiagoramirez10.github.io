@@ -1,161 +1,245 @@
 * {
-    font-family: "Lato";
-  }
-  
-  body {
-    background-color: #F1FAEE;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #1D3557;
-  }
-  
+  font-family: "Lato";
+}
+
+body {
+  background-color: #F1FAEE;
+}
+
+a {
+  text-decoration: none;
+  color: #1D3557;
+}
+
+p {
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 20px;
+  color: #1D3557;
+
+}
+
+h1 {
+  margin-top: 80px;
+  font-size: 50px;
+  text-align: center;
+  color: #1D3557;
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 40px;
+  text-align: center;
+  color: #1D3557;
+}
+
+h3 {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  color: #1D3557;
+}
+
+h4 {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  color: #1D3557;
+}
+
+li {
+  font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  font-family: "Lato"!important;
+}
+
+body {
+  background-color: #F1FAEE!important;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+p {
+  text-align: justify!important;
+  font-size: 18px!important;
+
+}
+
+h1 {
+  font-size: 36px!important;
+  text-align: center!important;
+}
+
+h2 {
+  font-size: 30px!important;
+  text-align: center!important;
+}
+
+h3 {
+  font-size: 24px!important;
+  text-align: center!important;
+}
+
+h4 {
+  font-size: 20px!important;
+
+}
+
+h5 {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  color: #1D3557 !important;
+}
+
+h6 {
+  font-size: 16px !important;
+  color: #1D3557 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*blogs*/
+
+
+.cheats,
+.civilizations {
+  margin-top: 3%;
+}
+
+.cheats-list li {
+  font-size: 25px;
+}
+
+.civilization h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+/*Dispositivos móviles*/
+@media (max-width: 650px) {
+
+  /*General*/
   p {
     margin-top: 10px;
     text-align: justify;
     font-size: 20px;
-    color: #1D3557;
-  
   }
-  
+
   h1 {
     margin-top: 80px;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
-    color: #1D3557;
   }
-  
+
   h2 {
-    margin-top: 25px;
-    font-size: 40px;
+    margin-top: 15px;
+    font-size: 35px;
     text-align: center;
-    color: #1D3557;
   }
-  
+
   h3 {
-    margin-top: 10px;
-    font-size: 30px;
-    text-align: center;
-    color: #1D3557;
-  }
-  
-  h4 {
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 25px;
+    text-align: center;
+  }
+
+  h4 {
+    margin-top: 15px;
+    font-size: 20px;
     font-weight: normal;
     text-align: left;
-    color: #1D3557;
   }
-  
 
-  
-  
-  
+  table {
+    font-size: 15px;
+  }
 
-  /*blogs*/
+  th {
+    text-align: left;
+    color: #1778BD;
+    border: 0.5px solid #1778BD;
+    padding: 2px;
+  }
 
-  
-  .cheats,
-  .civilizations {
-    margin-top: 3%;
+  td {
+    text-align: left;
+    border: 0.5px solid #1778BD;
+    padding: 2px;
   }
-  
-  .cheats-list li {
-    font-size: 25px;
-  }
-  
-  .civilization h4 {
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
 
-  
-  /*Dispositivos móviles*/
-  @media (max-width: 650px) {
-  
-    /*General*/
-    p {
-        margin-top: 10px;
-        text-align: justify;
-        font-size: 20px;
-    }
-  
-    h1 {
-        margin-top: 80px;
-        font-size: 45px;
-        text-align: center;
-    }
-  
-    h2 {
-        margin-top: 15px;
-        font-size: 35px;
-        text-align: center;
-    }
-  
-    h3 {
-        margin-top: 15px;
-        font-size: 25px;
-        text-align: center;
-    }
-  
-    h4 {
-        margin-top: 15px;
-        font-size: 20px;
-        font-weight: normal;
-        text-align: left;
-    }
-  
-    table {
-        font-size: 15px;
-    }
-  
-    th {
-        text-align: left;
-        color: #1778BD;
-        border: 0.5px solid #1778BD;
-        padding: 2px;
-    }
-  
-    td {
-        text-align: left;
-        border: 0.5px solid #1778BD;
-        padding: 2px;
-    }
-  
-    /*blog*/
-    .blog {
-        width: 90%;
-        margin: 1% 5%;
-        border: solid #000000;
-        border-radius: 5%;
-        display: block;
-    }
-  
-    .img-blog {
-        width: 90%;
-        height: auto;
-        margin: 1% 5%;
-    }
+  /*blog*/
+  .blog {
+    width: 90%;
+    margin: 1% 5%;
+    border: solid #000000;
+    border-radius: 5%;
+    display: block;
   }
-  
-  @media (max-width: 900px) {
-    /*Blogs*/
-    .autorretrato {
-        display: block;
-        margin: 3% auto;
-    }
-  
-    .autorretrato img {
-        width: 100%;
-    }
-  
-    .skills-image {
-        width: 100%;
-    }
+
+  .img-blog {
+    width: 90%;
+    height: auto;
+    margin: 1% 5%;
   }
-  
-  .container{
-    margin-top: 90px;
+}
+
+@media (max-width: 900px) {
+
+  /*Blogs*/
+  .autorretrato {
+    display: block;
+    margin: 3% auto;
   }
+
+  .autorretrato img {
+    width: 100%;
+  }
+
+  .skills-image {
+    width: 100%;
+  }
+}
+
+.container {
+  margin-top: 90px;
+}

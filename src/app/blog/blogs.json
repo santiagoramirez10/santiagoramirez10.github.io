@@ -1,9 +1,26 @@
 [
     {
-        "title": "Guía para Age Of Empires II",
-        "image": "../../assets/images/aoeii.png",
-        "alt": "Portada del videojuego Age Of Empires II Definitive Edition",
-        "link": "",
-        "description": "En esta guía encontrarás los mejores trucos y consejos para el juego, misiones, curiosidades entre otros. "
+        "title": "Subir datos de Kaggle a Google Colab",
+        "description": "Sube los datasets de las competencias de Kaggle directamente a Google Colab sin necesidad de descargar ningún archivo.",
+        "image": "../../assets/images/kaggle_colab.jpg",
+        "alt": "Logo de Kaggle y Google Colab",
+        "link": "/cargar-datos-kaggle-colab",
+        "date": "29/06/23"
+    },
+    {
+        "title": "¿Cómo crear una fecha y hora aleatoria en Python?",
+        "description": "Sube los datasets de las competencias de Kaggle directamente a Google Colab sin necesidad de descargar ningún archivo.",
+        "image": "../../assets/images/kaggle_colab.jpg",
+        "alt": "Logo de Kaggle y Google Colab",
+        "link": "/cargar-datos-kaggle-colab",
+        "date": "29/06/23"
+    },
+    {
+        "title": "Portafolio materia habilidades blandas",
+        "description": "Sube los datasets de las competencias de Kaggle directamente a Google Colab sin necesidad de descargar ningún archivo.",
+        "image": "../../assets/images/kaggle_colab.jpg",
+        "alt": "Logo de Kaggle y Google Colab",
+        "link": "/cargar-datos-kaggle-colab",
+        "date": "29/06/23"
     }
 ]

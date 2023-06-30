@@ -72,18 +72,6 @@ li {
 
 
 
-* {
-  font-family: "Lato"!important;
-}
-
-body {
-  background-color: #F1FAEE!important;
-}
-
-a {
-  text-decoration: none!important;
-}
-
 p {
   text-align: justify!important;
   font-size: 18px!important;
@@ -91,8 +79,7 @@ p {
 }
 
 h1 {
-  font-size: 36px!important;
-  text-align: center!important;
+  font-size: 36px;
 }
 
 h2 {
@@ -102,7 +89,6 @@ h2 {
 
 h3 {
   font-size: 24px!important;
-  text-align: center!important;
 }
 
 h4 {

@@ -1,5 +1,16 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import BlogsJson from "./blogs.json";
+
+interface BLOGS {
+  "title": String,
+  "description": String,
+  "image": String,
+  "alt": String,
+  "link": String,
+  "date": String;
+}
+
 
 @Component({
   selector: 'app-blog',
@@ -7,7 +18,8 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent {
-  constructor(private title:Title){
+  Blogs: BLOGS[] = BlogsJson;
+  constructor(private title: Title) {
     title.setTitle("Blog-Portafolio Santiago Ramírez Pérez")
   }
 }

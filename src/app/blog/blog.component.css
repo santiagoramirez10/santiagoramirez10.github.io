@@ -1,20 +1,29 @@
-.my-blogs{
+.my-blogs {
   display: flex;
   flex-wrap: wrap;
 }
-.my-blogs .card{
-  margin: auto;
-  border-color: #1D3557;
-}
-.blog-content{
-  margin: 15px;
-}
-.blog-content .author-img{
-  width: 25px;
+
+.blog {
+  margin: 10px;
 }
 
-.blog-content .author-info{
-display: flex;
-flex-wrap: wrap;
-justify-content: left;
+.my-blogs .card {
+  border-color: #1D3557;
+}
+
+
+.blog-content {
+  padding: 15px;
+}
+
+
+.blog-content .author-img {
+  width: 25px;
+  height: 25px;
+}
+
+.blog-content .author-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; 
 }

@@ -1,51 +1,15 @@
-table {
-    font-size: 20px;
-    margin: auto;
-  }
-  
-  th {
-    text-align: left;
-    color: #1778bd;
-    border: solid #1778bd;
-    padding: 5px;
-  }
-  
-  td {
-    text-align: left;
-    border: solid #1778bd;
-    padding: 5px;
-  }
-  
-.weeks-portfolioSS h3 {
-    margin-top: 3%;
-  }
-  
-  .weeks-portfolioSS a:hover {
-    color: #1778BD;
-  }
-  
   .autorretrato {
     display: flex;
+    flex-wrap: wrap;
     height: auto;
     align-items: center;
   }
-  
+
   .autorretrato img {
-    width: 40%;
+    max-width: 400px;
     margin: 0 auto;
   }
-  
-  .convencionesar {
-    height: 100%;
-  }
-  
-  .decalogue li {
-    font-size: 25px;
-  }
-  
+
   .skills-image {
-    width: 70%;
-    display: block;
-    margin: auto;
-    margin-top: 30px;
+    width: 100%;
   }

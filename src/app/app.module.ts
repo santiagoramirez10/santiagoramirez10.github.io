@@ -10,13 +10,14 @@ import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { AoeiideComponent } from './blogs/aoeiide/aoeiide.component';
 import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
 import { ArduinoProjectsComponent } from './projects/arduino-projects/arduino-projects.component';
 import { HtmlCssJavascriptProjectsComponent } from './projects/html-css-javascript-projects/html-css-javascript-projects.component';
 import { PythonProjectsComponent } from './projects/python-projects/python-projects.component';
 import { RProjectsComponent } from './projects/r-projects/r-projects.component';
 import { CargarDatosKaggleColabComponent } from './blogs/cargar-datos-kaggle-colab/cargar-datos-kaggle-colab.component';
+import { FechaHoraAleatoriaPythonComponent } from './blogs/fecha-hora-aleatoria-python/fecha-hora-aleatoria-python.component';
+import { AgeOfEmpiresiiDefinitiveEditionComponent } from './blogs/age-of-empiresii-definitive-edition/age-of-empiresii-definitive-edition.component';
 
 @NgModule({
   declarations: [
@@ -29,13 +30,14 @@ import { CargarDatosKaggleColabComponent } from './blogs/cargar-datos-kaggle-col
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    AoeiideComponent,
     PortfolioSSComponent,
     ArduinoProjectsComponent,
     HtmlCssJavascriptProjectsComponent,
     PythonProjectsComponent,
     RProjectsComponent,
     CargarDatosKaggleColabComponent,
+    FechaHoraAleatoriaPythonComponent,
+    AgeOfEmpiresiiDefinitiveEditionComponent,
   ],
   imports: [
     BrowserModule, routing

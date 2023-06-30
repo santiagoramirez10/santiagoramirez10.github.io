@@ -12,92 +12,41 @@ a {
 }
 
 p {
-  margin-top: 10px;
+  font-size: 18px;
   text-align: justify;
-  font-size: 20px;
   color: #1D3557;
-
-}
-
-h1 {
-  margin-top: 80px;
-  font-size: 50px;
-  text-align: center;
-  color: #1D3557;
-}
-
-h2 {
-  margin-top: 25px;
-  font-size: 40px;
-  text-align: center;
-  color: #1D3557;
-}
-
-h3 {
-  margin-top: 10px;
-  font-size: 30px;
-  text-align: center;
-  color: #1D3557;
-}
-
-h4 {
-  margin-top: 10px;
-  font-size: 25px;
-  font-weight: normal;
-  text-align: left;
-  color: #1D3557;
-}
-
-li {
-  font-size: 20px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p {
-  text-align: justify!important;
-  font-size: 18px!important;
 
 }
 
 h1 {
   font-size: 36px;
+  text-align: center;
+  color: #1D3557;
 }
 
 h2 {
-  font-size: 30px!important;
-  text-align: center!important;
+
+  font-size: 30px;
+  text-align: center;
+  color: #1D3557;
 }
 
 h3 {
-  font-size: 24px!important;
+
+  font-size: 24px;
+  text-align: center;
+  color: #1D3557;
 }
 
 h4 {
-  font-size: 20px!important;
-
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #1D3557;
 }
 
 h5 {
-  font-size: 18px !important;
+  font-size: 18px;
   font-weight: bold !important;
   color: #1D3557 !important;
 }
@@ -107,125 +56,42 @@ h6 {
   color: #1D3557 !important;
 }
 
+li {
+  font-size: 17px;
+  color: #1D3557;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*blogs*/
-
-
-.cheats,
-.civilizations {
-  margin-top: 3%;
 }
 
-.cheats-list li {
-  font-size: 25px;
+table {
+  font-size: 17px;
+  margin: auto;
 }
 
-.civilization h4 {
-  font-weight: bold;
-  text-transform: uppercase;
+th {
+  text-align: left;
+  color: #1D3557;
+  border: solid #457B9D;
+  padding: 5px;
 }
 
-
-
-/*Dispositivos móviles*/
-@media (max-width: 650px) {
-
-  /*General*/
-  p {
-    margin-top: 10px;
-    text-align: justify;
-    font-size: 20px;
-  }
-
-  h1 {
-    margin-top: 80px;
-    font-size: 45px;
-    text-align: center;
-  }
-
-  h2 {
-    margin-top: 15px;
-    font-size: 35px;
-    text-align: center;
-  }
-
-  h3 {
-    margin-top: 15px;
-    font-size: 25px;
-    text-align: center;
-  }
-
-  h4 {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: normal;
-    text-align: left;
-  }
-
-  table {
-    font-size: 15px;
-  }
-
-  th {
-    text-align: left;
-    color: #1778BD;
-    border: 0.5px solid #1778BD;
-    padding: 2px;
-  }
-
-  td {
-    text-align: left;
-    border: 0.5px solid #1778BD;
-    padding: 2px;
-  }
-
-  /*blog*/
-  .blog {
-    width: 90%;
-    margin: 1% 5%;
-    border: solid #000000;
-    border-radius: 5%;
-    display: block;
-  }
-
-  .img-blog {
-    width: 90%;
-    height: auto;
-    margin: 1% 5%;
-  }
-}
-
-@media (max-width: 900px) {
-
-  /*Blogs*/
-  .autorretrato {
-    display: block;
-    margin: 3% auto;
-  }
-
-  .autorretrato img {
-    width: 100%;
-  }
-
-  .skills-image {
-    width: 100%;
-  }
+td {
+  text-align: left;
+  border: solid #457B9D;
+  padding: 5px;
 }
 
 .container {
   margin-top: 90px;
+}
+
+/*Blogs*/
+.tutorial-title{
+  display: flex;
+  align-items: center;
+}
+.tutorial-title img{
+  width: 50px;
+}
+.tutorial-description{
+  margin: 0 5px;
 }

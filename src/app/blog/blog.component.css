@@ -1,6 +1,7 @@
 .my-blogs {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .blog {
@@ -9,6 +10,7 @@
 
 .my-blogs .card {
   border-color: #1D3557;
+  height: 100%;
 }
 
 

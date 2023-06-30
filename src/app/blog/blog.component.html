@@ -1,9 +1,9 @@
 <h1>Blog</h1>
 <section class="my-blogs">
-  <div   class="blog"  *ngFor="let Blog of Blogs">
+  <div class="blog" *ngFor="let Blog of Blogs">
     <div class="card" style="width: 18rem;">
       <div class="blog-content">
-        <a routerLink="/cargar-datos-kaggle-colab"><img src={{Blog.image}} class="card-img-top"
+        <a routerLink={{Blog.link}}><img src={{Blog.image}} class="card-img-top"
             alt="Logo de kaggle y Google Colab"></a>
         <div class="card-body">
           <h5 class="card-title">{{Blog.title}}</h5>

@@ -63,7 +63,7 @@ footer {
   text-decoration: none;
   color: #F1FAEE;
   font-size: 20px;
-  text-align: center;
+  text-align: center !important;
 }
 
 

@@ -1,116 +1,66 @@
 .me {
-    padding-top: 20px;
-    display: inline-block;
-  }
-  
-  .my-courses {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .course {
-    width: 300px;
-  }
-  
-  .course .card {
-    background-color: #457B9D;
-    border: solid #1D3557;
-    border-radius: 5%;
-    color: #F1FAEE;
-    padding: 20px;
-  }
-  
-  .course h5 {
-    font-size: 25px;
-    font-weight: bold;
-    color: #F1FAEE;
-  }
-  
-  .course p {
-    text-align: left;
-    font-size: 20px;
-    color: #F1FAEE;
-  }
-  
-  .course a {
-    background-color: #F1FAEE;
-    color: #1D3557;
-    border: none;
-  }
-  
-  .course a:hover {
-    background-color: #A8DADC;
-    color: #1D3557;
-  }
-  
-  .programming-laguages {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .language {
-    display: inline-block;
-    margin: 5px;
-  }
-  
-  .language h3 {
-    font-size: 25px;
-    margin: 2%;
-  }
-  
-  .progress {
-    height: 100%;
-    width: 300px;
-    background: #F1FAEE;
-    border: solid 1px #1D3557;
+  display: inline-block;
+}
 
-  }
-  
-  .work-experience h2 {
-    margin: 5% 0% 0%;
-  }
-  
-  .work-experience h3 {
-    text-align: left;
-  }
-  
-  .work-experience h4 {
-    text-align: justify;
-    font-size: 20px;
-  }
-  
-  .abilities {
-    margin-top: 30px;
-  }
-  
-  .abilities li {
-    font-size: 20px;
-  }
-  
-  .personal-interests {
-    margin-top: 30px;
-  }
-  
-  .personal-interests li {
-    font-size: 20px;
-  }
-  
-  .cv a {
-    width: 150px;
-    font-size: 20px;
-    text-align: center;
-    display: block;
-    margin: auto;
-    padding: 10px;
-    background-color: #0e4b76;
-    color: #FFFFFF;
-    border-radius: 5%;
-  }
-  .cv:hover a{
-    background-color: #457B9D;
-  }
+.course {
+  width: 100%;
+}
+.programming-laguages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-language {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 5px;
+}
+
+
+.work-experience h2 {
+  margin: 5% 0% 0%;
+}
+
+.work-experience h3 {
+  text-align: left;
+}
+
+.work-experience h4 {
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.cv a {
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  background-color: #0e4b76;
+  color: #FFFFFF;
+  border-radius: 5%;
+}
+
+.cv:hover a {
+  background-color: #457B9D;
+}
+
+.abilities ul,
+.personal-interests ul {
+  list-style-type: none;
+}
+
+.course p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

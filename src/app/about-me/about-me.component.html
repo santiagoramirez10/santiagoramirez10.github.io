@@ -25,34 +25,19 @@
     <section class="my-courses">
         <div *ngFor="let Course of Courses">
             <div class="course">
-                <div class="card" style="margin: 10px">
-                    <h5 id="studies-title1" class="card-title">{{ Course.course }}</h5>
-                    <p class="card-text">{{ Course.school }}</p>
-                    <p>{{ Course.year }}</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <h2 id="other-courses">Otros cursos</h2>
-    <section class="my-courses">
-        <div *ngFor="let OtherCourse of OtherCourses">
-            <div class="course">
-                <div class="card" style="margin: 10px">
-                    <h5 id="courses-title12" class="card-title">{{ OtherCourse.course }}</h5>
-                    <p class="card-text">{{ OtherCourse.school }}</p>
-                    <p>{{ OtherCourse.year }}</p>
-                    <a href="{{ OtherCourse.link }}" class="btn btn-primary" target="_blank">Ver certificado</a>
-                </div>
+                <h5 id="studies-title1" class="card-title">{{ Course.course }}</h5>
+                <p>{{Course.school}}</p>
+                <p>{{Course.year}}</p><br>
             </div>
         </div>
     </section>
     <h2 id="languages">Lenguajes y herramientas</h2>
     <section class="programming-laguages">
         <div *ngFor="let Language of Languages">
-        <div class="language">
-            <svg [attr.src]="Language.img"></svg>
+            <div class="language">
+                <img class="img-language" src={{Language.img}} alt={{Language.alt}}>
+            </div>
         </div>
-    </div>
     </section>
     <section class="experience">
         <div class="work-experience">
@@ -67,7 +52,7 @@
         </div>
     </section>
     <section class="abilities">
-        <h2 id="skills">Habilidades</h2>
+        <h2 id="skills">Habilidades blandas</h2>
         <ul>
             <li id="skill1">Liderazgo</li>
             <li id="skill2">Trabajo en equipo</li>

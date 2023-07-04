@@ -46,16 +46,11 @@
             </div>
         </div>
     </section>
-    <h2 id="languages">Lenguajes</h2>
+    <h2 id="languages">Lenguajes y herramientas</h2>
     <section class="programming-laguages">
         <div *ngFor="let Language of Languages">
         <div class="language">
-            <h3>{{Language.language}}</h3>
-            <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="height: 20px;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated"
-                    style="width: {{ Language.percentage}};background-color: #457B9D;"></div>
-            </div>
+            <svg [attr.src]="Language.img"></svg>
         </div>
     </div>
     </section>

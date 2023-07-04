@@ -18,8 +18,8 @@ interface OTHERCOURSES {
 }
 
 interface LANGUAGES{
-  language: String;
-  percentage: String;
+  img: String;
+  alt: String;
 }
 
 @Component({

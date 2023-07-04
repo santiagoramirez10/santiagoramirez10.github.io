@@ -1,34 +1,87 @@
 [
     {
-        "language": "HTML",
-        "percentage": "75%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/arduino/arduino-original-wordmark.svg",
+        "title": "Arduino",
+        "alt": "Logo de Arduino"
     },
     {
-        "language": "CSS",
-        "percentage": "75%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg",
+        "title": "",
+        "alt": "Logo de Python"
     },
     {
-        "language": "Python",
-        "percentage": "70%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original.svg",
+        "title": "",
+        "alt": "Logo de Numpy"
     },
     {
-        "language": "Arduino",
-        "percentage": "70%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/pandas/pandas-original.svg",
+        "title": "",
+        "alt": "Logo de Pandas"
     },
     {
-        "language": "JavaScript",
-        "percentage": "50%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/qt/qt-original.svg",
+        "title": "",
+        "alt": "Logo de Qt"
     },
     {
-        "language": "C++",
-        "percentage": "30%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg",
+        "title": "",
+        "alt": "Logo de Java"
     },
     {
-        "language": "R",
-        "percentage": "15%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg",
+        "title": "",
+        "alt": "Logo de HTML5"
     },
     {
-        "language": "SQL",
-        "percentage": "15%"
+        "img": "https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg",
+        "title": "",
+        "alt": "Logo de CSS3"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-plain.svg",
+        "title": "",
+        "alt": "Logo de Bootstrap"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg",
+        "title": "",
+        "alt": "Logo de Sass"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg",
+        "title": "",
+        "alt": "Logo de JavaScript"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg",
+        "title": "",
+        "alt": "Logo de TypeScript"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/angularjs/angularjs-original-wordmark.svg",
+        "title": "",
+        "alt": "Logo de Angular"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg",
+        "title": "",
+        "alt": "Logo de React"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/r/r-original.svg",
+        "title": "",
+        "alt": "Logo de R"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/matlab/matlab-original.svg",
+        "title": "",
+        "alt": "Logo de Matlab"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg",
+        "title": "",
+        "alt": "Logo de Git"
     }
 ]

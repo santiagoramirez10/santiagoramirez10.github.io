@@ -1,11 +1,11 @@
 <h1 id="h1-projects">Proyectos de programación</h1>
 <section class="my-projects">
-    <div class="project"   *ngFor="let Project of Projects">
-        <div class="card" style="width: 18rem;">
+    <div class="project" *ngFor="let Project of Projects">
+        <div class="card">
             <img src="{{Project.image}}" class="card-img-top" alt="{{Project.alt}}">
             <div class="card-body">
                 <h5 class="card-title">{{Project.language}}</h5>
-                <a routerLink="{{Project.link}}"class="btn btn-primary">Ver proyectos</a>
+                <a routerLink="{{Project.link}}" class="btn btn-primary">Ver proyectos</a>
             </div>
         </div>
     </div>

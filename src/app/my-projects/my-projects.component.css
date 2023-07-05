@@ -1,16 +1,15 @@
   .my-projects {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
     justify-content: space-around;
   }
   
   .my-projects .card {
-    border: solid #1D3557;
+    width: 18rem;
+    border: 2px solid #1D3557;
     border-radius: 5%;
     background-color: #A8DADC;
+    margin: 10px auto;
   }
   
   .my-projects img {

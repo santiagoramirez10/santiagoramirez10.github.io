@@ -20,6 +20,7 @@ p {
 
 h1 {
   font-size: 36px;
+  font-weight: bold;
   text-align: center;
   color: #1D3557;
 }
@@ -88,10 +89,8 @@ td {
   margin-top: 90px;
 }
 
-
-
 section{
-  border: solid 1px black;
+  margin-bottom: 20px;
 }
 
 /*Blogs*/

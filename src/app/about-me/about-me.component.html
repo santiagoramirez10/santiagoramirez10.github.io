@@ -1,79 +1,79 @@
-<div class="container">
-    <h1 id="h1-about">Sobre mí</h1>
-    <section class="me">
-        <p id="me-paragraph1">Hola, mi nombre es Santiago Ramírez Pérez, soy estudiante de ingeniería eléctrica de la
-            Universidad
-            de Antioquia y actualmente estoy en el octavo nivel. A lo largo de la carrera he podido aprender
-            e ir fortaleciendo habilidades en programación que es lo que más me apasiona. También, las
-            energías renovables y la domótica son de gran interés para mí.
-        </p>
-        <p id="me-paragraph2">En cuanto a programación, tengo alrededor de 5 años estudiando Python y Arduino que son
-            mis lenguajes
-            favoritos y fueron con los que comencé en el mundo de la programación. Actualmente me encuentro
-            estudiando sobre desarrollo web que es mi próximo objetivo y es la principal razón por la que estoy
-            realizando este proyecto del portafolio.
-        </p>
-        <p id="me-paragraph3">Mi interés hoy en día es participar en proyectos en los cuales pueda desarrollar mis
-            habilidades como
-            programador y/o aplicar los conocimientos que he adquirido en el área de ingeniería eléctrica, no solo
-            me interesan los lenguajes de programación para los cuales tengo gran dominio, sino también enfrentar
-            nuevos retos y adquirir conocimientos que permitan el desarrollo exitoso de los proyectos en los cuales
-            haga parte.
-        </p>
-    </section>
-    <h2 id="academic-studies">Formación académica</h2>
-    <section class="my-courses">
-        <div *ngFor="let Course of Courses">
-            <div class="course">
-                <h5 id="studies-title1" class="card-title">{{ Course.course }}</h5>
-                <p>{{Course.school}}</p>
-                <p>{{Course.year}}</p><br>
-            </div>
+<h1 id="h1-about">Sobre mí</h1>
+<section class="me">
+    <p id="me-paragraph1">Hola, mi nombre es Santiago Ramírez Pérez, soy estudiante de ingeniería eléctrica de la
+        Universidad
+        de Antioquia y actualmente estoy en el octavo nivel. A lo largo de la carrera he podido aprender
+        e ir fortaleciendo habilidades en programación que es lo que más me apasiona. También, las
+        energías renovables y la domótica son de gran interés para mí.
+    </p>
+    <p id="me-paragraph2">En cuanto a programación, tengo alrededor de 5 años estudiando Python y Arduino que son
+        mis lenguajes
+        favoritos y fueron con los que comencé en el mundo de la programación. Actualmente me encuentro
+        estudiando sobre desarrollo web que es mi próximo objetivo y es la principal razón por la que estoy
+        realizando este proyecto del portafolio.
+    </p>
+    <p id="me-paragraph3">Mi interés hoy en día es participar en proyectos en los cuales pueda desarrollar mis
+        habilidades como
+        programador y/o aplicar los conocimientos que he adquirido en el área de ingeniería eléctrica, no solo
+        me interesan los lenguajes de programación para los cuales tengo gran dominio, sino también enfrentar
+        nuevos retos y adquirir conocimientos que permitan el desarrollo exitoso de los proyectos en los cuales
+        haga parte.
+    </p>
+</section>
+<h2 id="academic-studies">Formación académica</h2>
+<section class="my-courses">
+    <div class="courses" *ngFor="let Course of Courses">
+        <img src={{Course.img}} alt={{Course.alt}}>
+        <div class="course">
+            <h5 id="studies-title1" class="card-title">{{ Course.course }}</h5>
+            <p>{{Course.school}}</p>
+            <p>{{Course.year}}</p><br>
         </div>
-    </section>
-    <h2 id="languages">Lenguajes y herramientas</h2>
-    <section class="programming-laguages">
-        <div *ngFor="let Language of Languages">
-            <div class="language">
-                <img class="img-language" src={{Language.img}} alt={{Language.alt}}>
-            </div>
+    </div>
+</section>
+<h2 id="languages">Lenguajes y herramientas</h2>
+<section class="programming-laguages">
+    <div *ngFor="let Language of Languages">
+        <div class="language">
+            <img class="img-language" src={{Language.img}} alt={{Language.alt}}>
         </div>
-    </section>
-    <section class="experience">
-        <div class="work-experience">
-            <h2 id="work-experience">Experiencia laboral</h2>
-            <h3 id="work-type1">Particular</h3>
-            <h4 id="work-description1">Asesorías personalizadas en proyectos que incluían la programación en Python y/o
-                Arduino: simulación
-                de una planta de tratamiento de aguas (Arduino), tratamiento de datos de generación semestral de
-                energía eléctrica del país (Python), algoritmos clasificadores (Python), entre otros. También he
-                realizado proyectos personales que he podido comercializar.
-            </h4>
-        </div>
-    </section>
-    <section class="abilities">
-        <h2 id="skills">Habilidades blandas</h2>
-        <ul>
-            <li id="skill1">Liderazgo</li>
-            <li id="skill2">Trabajo en equipo</li>
-            <li id="skill3">Lógica de programación</li>
-            <li id="skill4">Aprendizaje autodidacta</li>
-        </ul>
-    </section>
-    <section class="personal-interests">
-        <h2 id="interests">Intereses personales</h2>
-        <ul>
-            <li id="interest1">Programación</li>
-            <li id="interest2">Energía eléctrica</li>
-            <li id="interest3">Robótica</li>
-            <li id="interest4">Videojuegos</li>
-            <li id="interest5">Blogging</li>
-            <li id="interest6">Creación de contenido para YouTube</li>
-            <li id="interest7">Fútbol</li>
-        </ul>
-    </section>
-    <section class="cv">
-        <a id="download-cv" href="../../assets/documents/CVSantiagoRamirezPerez.pdf" target="_blank"
-            download="CV Santiago Ramirez Perez">Descargar CV</a>
-    </section>
-</div>
+    </div>
+</section>
+<h2 id="work-experience">Experiencia laboral</h2>
+<section class="experience">
+    <div class="work-experience">
+        
+        <h3 id="work-type1">Particular</h3>
+        <p id="work-description1">Asesorías personalizadas en proyectos que incluían la programación en Python y/o
+            Arduino: simulación
+            de una planta de tratamiento de aguas (Arduino), tratamiento de datos de generación semestral de
+            energía eléctrica del país (Python), algoritmos clasificadores (Python), entre otros. También he
+            realizado proyectos personales que he podido comercializar.
+        </p>
+    </div>
+</section>
+<h2 id="skills">Habilidades blandas</h2>
+<section class="abilities">
+    <ul>
+        <li id="skill1">Liderazgo</li>
+        <li id="skill2">Trabajo en equipo</li>
+        <li id="skill3">Lógica de programación</li>
+        <li id="skill4">Aprendizaje autodidacta</li>
+    </ul>
+</section>
+<h2 id="interests">Intereses personales</h2>
+<section class="personal-interests">
+    <ul>
+        <li id="interest1">Programación</li>
+        <li id="interest2">Energía eléctrica</li>
+        <li id="interest3">Robótica</li>
+        <li id="interest4">Videojuegos</li>
+        <li id="interest5">Blogging</li>
+        <li id="interest6">Creación de contenido para YouTube</li>
+        <li id="interest7">Fútbol</li>
+    </ul>
+</section>
+<section class="cv">
+    <a id="download-cv" href="../../assets/documents/CVSantiagoRamirezPerez.pdf" target="_blank"
+        download="CV Santiago Ramirez Perez">Descargar CV</a>
+</section>

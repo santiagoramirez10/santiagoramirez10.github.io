@@ -13,6 +13,17 @@
   height: 100%;
 }
 
+.my-blogs img{
+  transition: transform 0.5s ease;
+  border-radius: 5%;
+}
+
+
+.my-blogs img:hover {
+  transform: scale(1.1);
+  
+}
+
 
 .blog-content {
   padding: 15px;

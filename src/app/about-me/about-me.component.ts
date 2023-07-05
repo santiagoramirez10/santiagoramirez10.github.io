@@ -4,6 +4,8 @@ import  CoursesJson  from "./courses.json"
 import LanguagesJson from "./languages.json"
 
 interface COURSES {
+ img: String;
+ alt:String;
   course: String;
   school: String;
   year: String;

@@ -1,6 +1,6 @@
 [
     {
-        "image": "../../assets/images/arduino.png",
+        "image": "../../assets/images/Arduino.png",
         "alt": "Logo de Arduino",
         "language": "Arduino",
         "link": "/arduino-projects"
@@ -12,13 +12,13 @@
         "link": "/html-css-javascript-projects"
     },
     {
-        "image": "../../assets/images/python.png",
+        "image": "../../assets/images/Python.png",
         "alt": "Logo de Python",
         "language": "Python",
         "link": "/python-projects"
     },
     {
-        "image": "../../assets/images/r.png",
+        "image": "../../assets/images/R.png",
         "alt": "Logo de R",
         "language": "R",
         "link": "/r-projects"

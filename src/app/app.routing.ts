@@ -12,7 +12,6 @@ import { CargarDatosKaggleColabComponent } from './blogs/cargar-datos-kaggle-col
 import { FechaHoraAleatoriaPythonComponent } from './blogs/fecha-hora-aleatoria-python/fecha-hora-aleatoria-python.component';
 import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
 import { AgeOfEmpiresiiDefinitiveEditionComponent } from './blogs/age-of-empiresii-definitive-edition/age-of-empiresii-definitive-edition.component';
-
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const appRoutes = [
@@ -30,7 +29,6 @@ const appRoutes = [
     {path: "fecha-hora-aleatoria-python",component: FechaHoraAleatoriaPythonComponent},
     {path: "age-of-empiresii-definitive-edition",component: AgeOfEmpiresiiDefinitiveEditionComponent},
     {path: "portfolio-ss",component: PortfolioSSComponent},
-    
     { path: '**', component: PageNotFoundComponent }
 ];
 export const routing = RouterModule.forRoot(appRoutes);

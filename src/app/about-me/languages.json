@@ -24,15 +24,15 @@
         "alt": "Logo de Java"
     },
     {
-        "img": "https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg",
+        "img": "../../assets/images/Spring.png",
         "alt": "Logo de Spring"
     },
     {
-        "img": "https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg",
+        "img": "../../assets/images/MySQL.png",
         "alt": "Logo de MySQL"
     },
     {
-        "img": "https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg",
+        "img": "../../assets/images/MongoDB.png",
         "alt": "Logo de MongoDB"
     },
     {

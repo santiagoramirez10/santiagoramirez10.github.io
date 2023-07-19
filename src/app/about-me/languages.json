@@ -24,6 +24,18 @@
         "alt": "Logo de Java"
     },
     {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/spring/spring-original.svg",
+        "alt": "Logo de Spring"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original.svg",
+        "alt": "Logo de MySQL"
+    },
+    {
+        "img": "https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg",
+        "alt": "Logo de MongoDB"
+    },
+    {
         "img": "../../assets/images/HTML5.png",
         "alt": "Logo de HTML5"
     },
@@ -72,3 +84,5 @@
         "alt": "Logo de Unity"
     }
 ]
+
+

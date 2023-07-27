@@ -1,5 +1,13 @@
 [
     {
+        "title": "Portafolio materia habilidades blandas 2",
+        "description": "Actividades realizadas en la materia de Habilidades Blandas del curso Desarrollador Fullstack nivel 2.",
+        "image": "../../assets/images/soft_skills.jpg",
+        "alt": "Logo de soft skills",
+        "link": "/portfolio-ss2",
+        "date": "27/07/23"
+    },
+    {
         "title": "Subir datos de Kaggle a Google Colab",
         "description": "Sube los datasets de las competencias de Kaggle directamente a Google Colab sin necesidad de descargar ningún archivo.",
         "image": "../../assets/images/kaggle_colab.jpg",

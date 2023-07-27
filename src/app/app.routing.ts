@@ -13,6 +13,7 @@ import { FechaHoraAleatoriaPythonComponent } from './blogs/fecha-hora-aleatoria-
 import { PortfolioSSComponent } from './blogs/portfolio-ss/portfolio-ss.component';
 import { AgeOfEmpiresiiDefinitiveEditionComponent } from './blogs/age-of-empiresii-definitive-edition/age-of-empiresii-definitive-edition.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PortfolioSs2Component } from './blogs/portfolio-ss2/portfolio-ss2.component';
 
 const appRoutes = [
     { path: "", component: HomeComponent },
@@ -29,6 +30,7 @@ const appRoutes = [
     {path: "fecha-hora-aleatoria-python",component: FechaHoraAleatoriaPythonComponent},
     {path: "age-of-empiresii-definitive-edition",component: AgeOfEmpiresiiDefinitiveEditionComponent},
     {path: "portfolio-ss",component: PortfolioSSComponent},
+    {path: "portfolio-ss2",component: PortfolioSs2Component},
     { path: '**', component: PageNotFoundComponent }
 ];
 export const routing = RouterModule.forRoot(appRoutes);

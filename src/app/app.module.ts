@@ -18,6 +18,7 @@ import { RProjectsComponent } from './projects/r-projects/r-projects.component';
 import { CargarDatosKaggleColabComponent } from './blogs/cargar-datos-kaggle-colab/cargar-datos-kaggle-colab.component';
 import { FechaHoraAleatoriaPythonComponent } from './blogs/fecha-hora-aleatoria-python/fecha-hora-aleatoria-python.component';
 import { AgeOfEmpiresiiDefinitiveEditionComponent } from './blogs/age-of-empiresii-definitive-edition/age-of-empiresii-definitive-edition.component';
+import { PortfolioSs2Component } from './blogs/portfolio-ss2/portfolio-ss2.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { AgeOfEmpiresiiDefinitiveEditionComponent } from './blogs/age-of-empires
     CargarDatosKaggleColabComponent,
     FechaHoraAleatoriaPythonComponent,
     AgeOfEmpiresiiDefinitiveEditionComponent,
+    PortfolioSs2Component,
   ],
   imports: [
     BrowserModule, routing

@@ -9,6 +9,7 @@
 .my-courses img{
   width: 50px;
   height: 50px;
+  margin-right: 10px;
 }
 .course {
   width: 100%;
@@ -41,7 +42,8 @@
 
 
 .abilities ul,
-.personal-interests ul {
+.personal-interests ul,
+.achievements ul {
   list-style-type: none;
 }
 

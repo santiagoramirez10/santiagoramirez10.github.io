@@ -31,14 +31,6 @@
         </div>
     </div>
 </section>
-<h2 id="languages">Lenguajes y herramientas</h2>
-<section class="programming-laguages">
-    <div *ngFor="let Language of Languages">
-        <div class="language">
-            <img class="img-language" src={{Language.img}} alt={{Language.alt}}>
-        </div>
-    </div>
-</section>
 <h2 id="work-experience">Experiencia laboral</h2>
 <section class="experience">
     <div class="work-experience">
@@ -49,7 +41,6 @@
             conceptos claves y resolver problemas de programación.
         </p>
     </div>
-
     <div class="work-experience">
         <h3 id="work-type2">Diseñador sistemas domóticos</h3>
         <p id="work-description2"> Diseñador, programador e instalador de sistemas domóticos. Pude utilizar mis
@@ -66,6 +57,34 @@
             web responsivas y mejora de la experiencia de usuario. Todos los días está en constante cambio por lo que
             cada día aprendo algo nuevo.
         </p>
+    </div>
+    <div class="work-experience">
+        <h3 id="work-type4">Creador de contenido en YouTube</h3>
+        <p id="work-description3">En el proceso de programador y electricista he desarrollado habilidades que me han
+            permitido compartir el conocimiento en ambas disciplinas. Este es el caso de mi canal de YouTube <a
+                href="https://www.youtube.com/@s_ramirezp10"><strong>@s_ramirezp10</strong></a> en el cual tengo más de
+            400 suscriptores y he recibido más de 70.000 visitas desde su fecha de creación en noviembre de 2018. En el
+            proceso, aparte de adquirir y mejorar habilidades de programación y circuitos eléctricos, he podido aprender
+            sobre edición de video, photoshop, diseño de miniaturas, divulgación y promoción en redes sociales, entre
+            otras herramientas que me han podido permitir divulgar mi conocimiento con mi comunidad.
+        </p>
+    </div>
+</section>
+<h2 id="languages">Lenguajes y herramientas</h2>
+<section class="programming-laguages">
+    <div *ngFor="let Language of Languages">
+        <div class="language">
+            <img class="img-language" src={{Language.img}} alt={{Language.alt}}>
+        </div>
+    </div>
+</section>
+<h2 id="achievements">Logros</h2>
+<section class="achievements">
+    <div class="achievements" *ngFor="let Achievement of Achievements">
+        <div class="course">
+            <h5 id="studies-title1" class="card-title">{{ Achievement.title }}</h5>
+            <p>{{Achievement.year}}</p>
+        </div>
     </div>
 </section>
 <h2 id="skills">Habilidades blandas</h2>

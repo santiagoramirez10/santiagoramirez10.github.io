@@ -7,11 +7,25 @@
         "year": "En curso"
     },
     {
+        "img": "../../assets/images/CursoAngular.png",
+        "alt": "Desarrollo en Angular",
+        "course": "Angular nivel 1",
+        "school": "Info Center",
+        "year": "En curso"
+    },
+    {
+        "img": "../../assets/images/Fullstack2.png",
+        "alt": "Desarrollo fullstack",
+        "course": "Curso desarrollador fullstack nivel 2",
+        "school": "IME Escuelas Técnicas",
+        "year": "En curso"
+    },
+    {
         "img": "../../assets/images/Backend.png",
         "alt": "Desarrollo backend",
         "course": "Curso desarrollador backend",
         "school": "Universidad EAFIT",
-        "year": "En curso"
+        "year": "2023"
     },
     {
         "img": "../../assets/images/Frontend.png",
@@ -23,7 +37,7 @@
     {
         "img": "../../assets/images/Fullstack.png",
         "alt": "Desarrollo fullstack",
-        "course": "Curso desarrollador full-stack nivel junior",
+        "course": "Curso desarrollador fullstack nivel 1",
         "school": "IME Escuelas Técnicas",
         "year": "2022"
     },

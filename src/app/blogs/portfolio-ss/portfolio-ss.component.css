@@ -1,3 +1,7 @@
+.weeks-portfolioSS h3{
+  font-weight: bold;
+}
+
   .autorretrato {
     display: flex;
     flex-wrap: wrap;

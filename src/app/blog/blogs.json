@@ -1,42 +1,42 @@
 [
-    {
-        "title": "Portafolio materia habilidades blandas 2",
-        "description": "Actividades realizadas en la materia de Habilidades Blandas del curso Desarrollador Fullstack nivel 2.",
-        "image": "../../assets/images/soft_skills2.jpg",
-        "alt": "Logo de soft skills",
-        "link": "/portfolio-ss2",
-        "date": "30/08/23"
-    },
-    {
-        "title": "Subir datos de Kaggle a Google Colab",
-        "description": "Sube los datasets de las competencias de Kaggle directamente a Google Colab sin necesidad de descargar ningún archivo.",
-        "image": "../../assets/images/kaggle_colab.jpg",
-        "alt": "Logo de Kaggle y Google Colab",
-        "link": "/cargar-datos-kaggle-colab",
-        "date": "29/06/23"
-    },
-    {
-        "title": "¿Cómo crear una fecha y hora aleatoria en Python?",
-        "description": "Crea fechas y horas aleatorias con estas librerías de Python",
-        "image": "../../assets/images/fecha_hora.jpg",
-        "alt": "Calendario y reloj animados",
-        "link": "/fecha-hora-aleatoria-python",
-        "date": "29/06/23"
-    },
-    {
-        "title": "Portafolio materia habilidades blandas",
-        "description": "Actividades realizadas en la materia de Habilidades Blandas del curso Desarrollador Fullstack nivel junior.",
-        "image": "../../assets/images/soft_skills.jpg",
-        "alt": "Logo de soft skills",
-        "link": "/portfolio-ss",
-        "date": "10/12/22"
-    },
-    {
-        "title": "Guía Age Of Empires II Definitive Edition",
-        "description": "Trucos, misiones, personajes y más del videojuego.",
-        "image": "../../assets/images/aoe2_de.png",
-        "alt": "Imágen del videojuego Age Of Empires II Definitive Edition",
-        "link": "/age-of-empiresii-definitive-edition",
-        "date": "10/07/22"
-    }
+  {
+    "title": "Subir datos de Kaggle a Google Colab",
+    "description": "Sube los datasets de las competencias de Kaggle directamente a Google Colab sin necesidad de descargar ningún archivo.",
+    "image": "../../assets/images/kaggle_colab.jpg",
+    "alt": "Logo de Kaggle y Google Colab",
+    "link": "/cargar-datos-kaggle-colab",
+    "date": "24/09/23"
+  },
+  {
+    "title": "Portafolio materia habilidades blandas 2",
+    "description": "Actividades realizadas en la materia de Habilidades Blandas del curso Desarrollador Fullstack nivel 2.",
+    "image": "../../assets/images/soft_skills2.jpg",
+    "alt": "Logo de soft skills",
+    "link": "/portfolio-ss2",
+    "date": "30/08/23"
+  },
+  {
+    "title": "¿Cómo crear una fecha y hora aleatoria en Python?",
+    "description": "Crea fechas y horas aleatorias con estas librerías de Python",
+    "image": "../../assets/images/fecha_hora.jpg",
+    "alt": "Calendario y reloj animados",
+    "link": "/fecha-hora-aleatoria-python",
+    "date": "29/06/23"
+  },
+  {
+    "title": "Portafolio materia habilidades blandas",
+    "description": "Actividades realizadas en la materia de Habilidades Blandas del curso Desarrollador Fullstack nivel junior.",
+    "image": "../../assets/images/soft_skills.jpg",
+    "alt": "Logo de soft skills",
+    "link": "/portfolio-ss",
+    "date": "10/12/22"
+  },
+  {
+    "title": "Guía Age Of Empires II Definitive Edition",
+    "description": "Trucos, misiones, personajes y más del videojuego.",
+    "image": "../../assets/images/aoe2_de.png",
+    "alt": "Imágen del videojuego Age Of Empires II Definitive Edition",
+    "link": "/age-of-empiresii-definitive-edition",
+    "date": "10/07/22"
+  }
 ]

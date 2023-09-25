@@ -1,25 +1,86 @@
 <div class="tutorial-title">
-    <img src="../../../assets/images/Google_Colab.png" alt="Logo de Google Colab">
-    <div class="tutorial-description">
-        <h3>Cómo cargar datos desde kaggle a Google Colab</h3>
-        <h6>Última actualización: 15 junio 2023</h6>
-    </div>
+  <img src="../../../assets/images/Google_Colab.png" alt="Logo de Google Colab">
+  <div class="tutorial-description">
+    <h3>Cómo cargar datos desde kaggle a Google Colab</h3>
+    <h6>Última actualización: 24 septiembre 2023</h6>
+  </div>
 </div>
 <article>
-    <p>Cuando estás usando Google Colab para un proyecto de cualquier tipo, en cualquier momento te encontrarás con el
-        reto de subir datasets directamente al Colab sin tener que descargarlos en tu computador antes y subirlos
-        manualmente.</p>
-    <p>Si estás trabajando en una competencia de la página Kaggle, donde hay cientos de desafíos para trabajar con
-        ciencia de datos, esto te servira. Con este código podrás subir los archivos de la competencia en tan solo unos
-        clicks, ahorrando de esta manera tiempo y espacio, además de que si debes compartir el código con otras
-        personas, estas no tendrán que descargar los archivos sino simplemente seguir unos pasos breves.</p>
-    <ol>
-        <li>
-            <p>Si no tienes una cuenta en Kaggle deberás crearla, es muy sencillo crearla, te puedes registrar usando tu
-            cuenta de Google o crearla desde 0 con tu correo electrónico.</p>
-        </li>
-        <li>
-        <p>Una vez hayas creado tu cuenta o hayas ingresado con una ya existente, vamos a ir al apartado de API.</p>
-        </li>
-    </ol>
+  <p>Cuando estás usando Google Colab para un proyecto de cualquier tipo, en cualquier momento te encontrarás con el
+    reto de subir datasets directamente al Colab sin tener que descargarlos en tu computador antes y subirlos
+    manualmente.</p>
+  <p>Si estás trabajando en una competencia de la página Kaggle, donde hay cientos de desafíos para trabajar con
+    ciencia de datos, esto te servira. Con este código podrás subir los archivos de la competencia en tan solo unos
+    clicks, ahorrando de esta manera tiempo y espacio, además de que si debes compartir el código con otras
+    personas, estas no tendrán que descargar los archivos sino simplemente seguir unos pasos breves. Para el ejemplo
+    usaremos una competencia de predicción de corteza forestal: <a
+      href="https://www.kaggle.com/competitions/forest-cover-type-prediction"><i><strong>https://www.kaggle.com/competitions/forest-cover-type-prediction</strong></i></a>.
+  </p>
+  <ol>
+    <li>
+      <p>Si no tienes una cuenta en Kaggle deberás crearla, es muy sencillo crearla, te puedes registrar usando tu
+        cuenta de Google o crearla desde 0 con tu correo electrónico.</p>
+    </li>
+    <li>
+      <p>Una vez hayas creado tu cuenta o hayas ingresado con una ya existente, vamos a ir a la parte superior derecha
+        donde está un círculo con nuestra imagen de perfil, das click y desplegará un menú, dar click en settings, hay
+        que buscar el apartado donde dice <i><strong>API</strong></i>, debemos crear un nuevo token, dar click en el
+        botón <i><strong>Create New Token</strong></i> .
+      </p>
+    </li>
+    <li>
+      <p>Cuando ya se creó el nuevo token se descargará un archivo <i><strong>.json</strong></i>, allí se encuentra el
+        nombre de usuario y una
+        contraseña para poder acceder a los datos desde Google Colab, este archivo debemos tenerlo presente en el
+        momento en que se corre el código en Google Colab.</p>
+    </li>
+    <li>
+      <p>
+        Después de crear el token hay que ir a la página de la competencia que se desean obtener los datos, vamos al
+        apartado de <i><strong>Rules</strong></i>, allí se deben aceptar las reglas de la competencia para poder cargar
+        los datos, este paso
+        es importante porque si no se acpetan no se podrán cargar los archivos en la plataforma.
+      </p>
+    </li>
+    <li>
+      <p>
+        Después de aceptar las reglas vamos al apartado <i><strong>Data</strong></i>, hay que copiar la URL de este
+        apartado y lo tenemos en
+        el
+        portapapeles, en el siguiente código en la variable <i><strong>dataset_link</strong></i> cambiamos el valor por
+        el link de nuestros
+        datos. Con este código al correrlo se descargarán los archivos de la competencia y se subirán a Google Colab.
+      </p>
+      <pre>
+!pip install opendatasets
+import opendatasets as od
+dataset_link="https://www.kaggle.com/competitions/forest-cover-type-prediction/data?select=sampleSubmission.csv"
+od.download(dataset_link)</pre>
+    </li>
+    <li>
+      <p>Al correr el bloque de código aparecerán 2 entradas, una es <i><strong>Your Kaggle username:</strong></i> y
+        allí deberás pegar el nombre
+        de usuario que hay en el archivo json que se descargó previamente, al pegar el nombre de usuario damos enter y
+        sale otra entrada, <i><strong>Your Kaggle Key:</strong></i>, allí copiamos y pegamos la llave del archivo json.
+        Si todos los pasos
+        anteriores fueron hechos correctamente entonces los archivos ya quedarán cargados en Google Colab. En consola
+        aparecerá que se leyeron correctamente los archivos, en la última línea aparece algo como <i><strong>Extracting
+            archive
+            ./forest-cover-type-prediction/forest-cover-type-prediction.zip to
+            ./forest-cover-type-prediction</strong></i>, esta última
+        ruta (forest-cover-type-prediction) es lo que debemos copiar para colocarlo en el siguiente bloque de código.
+      </p>
+    </li>
+    <li>
+      <p>
+        Finalmente, corremos el siguiente código para ver los archivos que fueron cargados y así poder acceder a ellos
+        directamente desde Google Colab. En la segunda línea del código se debe cambiar la ruta por la que se obtuvo en
+        el bloque de código anterior.
+      </p>
+      <pre>
+import os
+os.chdir("forest-cover-type-prediction")
+os.listdir()</pre>
+    </li>
+  </ol>
 </article>

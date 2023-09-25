@@ -10,6 +10,7 @@
 
 .my-blogs .card {
   border-color: #1D3557;
+  background-color: #A8DADC ;
   height: 100%;
 }
 
@@ -21,12 +22,13 @@
 
 .my-blogs img:hover {
   transform: scale(1.1);
-  
+
 }
 
 
 .blog-content {
   padding: 15px;
+
 }
 
 
@@ -38,5 +40,5 @@
 .blog-content .author-info {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left; 
+  justify-content: left;
 }

@@ -1,10 +1,53 @@
 <div class="tutorial-title">
-    <img src="../../../assets/images/Python.png" alt="Logo de Pyton">
-    <div class="tutorial-description">
-        <h3>Cómo crear una fecha y hora aleatoria en Python</h3>
-        <h6>Última actualización: 29 junio 2023</h6>
-    </div>
+  <img src="../../../assets/images/Python.png" alt="Logo de Pyton">
+  <div class="tutorial-description">
+    <h3>¿Cómo crear una fecha y hora aleatoria en Python?</h3>
+    <h6>Última actualización: 25 septiembre 2023</h6>
+  </div>
 </div>
 <article>
+  <p>
+    El hecho de poder crear una fecha aleatoria nos da ventajas en algunos campos y aplicaciones de la programación,
+    conocer cómo crearla nos servirá en aplicaciones como pruebas , análisis de datos, juegos, pruebas de rendimiento,
+    seguridad, entre otras.
+  </p>
+  <p>Para generar una fecha aleatoria en Python realmente es sencillo y su código es corto. Lo primero es importar las
+    librerías necesarias, la primera es <i><strong>random</strong></i>, esta nos permite generar números aleatorios; la
+    segunda librería es <i><strong>datetime</strong></i>, esta permite trabajar con fechas y horas.</p>
+  <p>Con el siguiente código obtendremos una fecha y hora aleatoria, la fecha se genera entre la fecha de inicio y la
+    fecha final,estas variables <i>inicio</i> y <i>final</i> pueden ser cambiadas por las fechas entre las cuales se
+    desee tener el rango.</p>
+  <pre>
+import random as rd
+from datetime import datetime
 
+inicio = datetime(2020,1,1)
+final =  datetime(2022,11,11)
+random_date = inicio + (final - inicio) * rd.random()
+dia=str(random_date.day)
+mes=str(random_date.month)
+anio=str(random_date.year)
+hora=str(random_date.hour)
+minuto=str(random_date.minute)
+if len(dia)==1:
+  dia="0"+dia
+if len(mes)==1:
+  mes="0"+mes
+if len(hora)==1:
+  hora="0"+hora
+if len(minuto)==1:
+  minuto="0"+minuto
+
+print("Fecha: "+dia+"/"+mes+"/"+anio)
+print("Hora: "+hora+":"+minuto)
+</pre>
+  <p>Al final, el programa imprime por consola una fecha aleatoria entre las 2 fechas deseadas y una hora con minutos
+    aleatorios. Así se vería al correr el código; seguramente al correr tu código no dará el mismo resultado ya que son
+    fechas y horas aleatorias. Con los condicionales <i><strong>if</strong></i> que hay en el código nos aseguramos de
+    que si el día, el mes, la hora o los minutos son menores a 10 se muestren con 2 dígitos y no con 1 como viene
+    predeterminado en la librería.</p>
+  <pre class="pre-console">
+Fecha: 24/04/2022
+Hora: 03:11
+</pre>
 </article>

@@ -1,1 +1,14 @@
-<p>contact works!</p>
+<div class="contact-container">
+  <h1>Contacto</h1>
+  <form>
+    <div class="form-group">
+      <label for="message">Escribe tu mensaje aquí abajo:</label>
+      <textarea id="message" [(ngModel)]="message" name="message" rows="4"></textarea>
+    </div>
+    <br>
+    <div class="send-buttons">
+      <button (click)="sendMessageViaWhatsApp()" class="send-button">Enviar por WhatsApp</button>
+
+    </div>
+  </form>
+</div>

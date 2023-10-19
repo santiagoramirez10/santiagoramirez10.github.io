@@ -86,6 +86,14 @@ td {
   border: solid #457B9D;
   padding: 5px;
 }
+textarea{
+  width: 100%;
+  background-color: #A8DADC;
+  color: #1D3557;
+  font-size: 18px;
+  border: solid 2.5px #1D3557;
+  border-radius: 10px;
+}
 
 .container {
   margin-top: 90px;
@@ -119,4 +127,11 @@ pre {
 
 .tutorial-description {
   margin: 0 5px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: #1D3557;
 }

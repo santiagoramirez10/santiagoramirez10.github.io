@@ -1,37 +1,26 @@
-  /*contact*/
-  .contact-form {
-    max-inline-size: 550px;
-    margin: auto;
-  }
-  
-  .contact-form label {
-    display: block;
-    margin: 10px 0px;
-  }
-  
-  .contact-form label span {
-    color: #1778BD;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid #1778BD;
-  }
-  
-  .send-message {
-    width: auto;
-    height: auto;
-    display: block;
-    color: #FFFFFF;
-    background-color: #1778BD;
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 5px;
-    text-align: center;
-    cursor: pointer;
-  }
+textarea {
+  min-height: 250px;
+  margin-top: 10px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.send-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.send-button {
+  background-color: #457B9D;
+  color: #F1FAEE;
+  border: solid 2px #1D3557;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.send-button:hover {
+  background-color: #F1FAEE;
+  color: #1D3557;
+}

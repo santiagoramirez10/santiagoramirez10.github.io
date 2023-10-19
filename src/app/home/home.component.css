@@ -60,34 +60,6 @@
         transform: rotate(0deg);
     }
 }
-
-.tinkercad-projects iframe {
-    width: 100%;
-    height: 56.25vw;
-    border: solid 1px #1D3557;
-}
-
-.last-video {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 5% 0%;
-}
-
-.index-video {
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    position: relative;
-}
-
-.index-video iframe,
-.index-video object,
-.index-video embed {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+.introduction{
+  margin-top: 10px;
 }

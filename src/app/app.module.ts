@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { routing } from './app.routing';
+import { FormsModule } from '@angular/forms';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutMeComponent } from './about-me/about-me.component';
@@ -42,10 +44,12 @@ import { PortfolioSs2Component } from './blogs/portfolio-ss2/portfolio-ss2.compo
     PortfolioSs2Component,
   ],
   imports: [
-    BrowserModule, routing
+    BrowserModule, routing, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 
 export class AppModule { }
+
+

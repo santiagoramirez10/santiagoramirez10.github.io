@@ -1,5 +1,13 @@
 [
   {
+    "title": "Semáforo inteligente con Arduino",
+    "description": "Simulación de un semáforo de tránsito, usando LED de color rojo, amarillo y verde",
+    "image": "../../assets/images/",
+    "alt": "",
+    "link": "/semaforo-inteligente-arduino",
+    "date": "22/01/24"
+  },
+  {
     "title": "¿Cómo crear una fecha y hora aleatoria en Python?",
     "description": "Crea fechas y horas aleatorias con estas librerías de Python",
     "image": "../../assets/images/fecha_hora.jpg",

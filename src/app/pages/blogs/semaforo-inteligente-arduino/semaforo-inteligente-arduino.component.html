@@ -1,0 +1,50 @@
+<div class="tutorial-title">
+  <img src="../../../assets/images/Arduino.png" alt="Logo de Pyton">
+  <div class="tutorial-description">
+    <h3>Semáforo inteligente con Arduino</h3>
+    <h6>Última actualización: 22 enero 2024</h6>
+  </div>
+</div>
+<article>
+  <p>
+    El semáforo en Arduino es uno de los proyectos más comunes entre los programadores, este proyecto ayuda a mejorar la
+    lógica de programación y es un buen comienzo para el mundo Arduino.
+  </p>
+  <p>Este proyecto nos ayuda a comprender el uso y declaración de variables, los ciclos y las secuencias. Este proyecto
+    hace que se mejoren estas competencias y es ideal si apenas comieznas a programar Arduino.</p>
+  <pre>
+    int LED_Rojo = 10;
+    int LED_Amarillo = 11;
+    int LED_Verde = 12;
+    int i = 0;
+    void setup()&#123;
+      pinMode(LED_Rojo, OUTPUT);
+      pinMode(LED_Amarillo, OUTPUT);
+      pinMode(LED_Verde, OUTPUT);
+    &#125;
+    void loop()&#123;
+      digitalWrite(LED_Rojo, LOW);
+      digitalWrite(LED_Amarillo, LOW);
+      digitalWrite(LED_Verde, LOW);
+      delay(10);
+      digitalWrite(LED_Verde, HIGH);
+      delay(8000);
+      i = 0;
+      while (i &lt; 5)&#123;
+        digitalWrite(LED_Verde, LOW);
+        delay(300);
+        digitalWrite(LED_Verde, HIGH);
+        delay(300);
+        i = i + 1;
+      &#125;
+      digitalWrite(LED_Verde, LOW);
+      digitalWrite(LED_Amarillo, HIGH);
+      delay(2500);
+      digitalWrite(LED_Amarillo, LOW);
+      digitalWrite(LED_Rojo, HIGH);
+      delay(7000);
+    &#125;
+</pre>
+  <p>Con este código tenemos entonces definido el pin para el LED rojo que será el 10, el pin para el LED amarillo es el 11 y el pin para el LED verde es el 12. Se crea una varibale <strong><i>i</i></strong> que es para realizar un ciclo de parpadeo para el LED verde. Se definen los 3 pines de los LED como salida y comienza el ciclo de encendido y apagado de los LED. Se comienza con los 3 LED apagados para evitar errores. Luego, se enciende el LED verde durante 8 segundos, luego se prende y se apaga 300 milisegundos, este parpadeo es de 5 veces. Luego, se enciende el LED amarillo y se apaga el verde, esto durante 2.5 segundos. Finalmente se apaga el LED amarillo y se enciende el LED rojo durante 7 segundos.</p>
+  <p>Este es el montaje para el proyecto:</p>
+</article>

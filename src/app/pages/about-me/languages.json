@@ -1,88 +1,106 @@
 [
-    {
-        "img": "../../assets/images/Arduino.png",
-        "alt": "Logo de Arduino"
-    },
-    {
-        "img": "./../assets/images/Python.png",
-        "alt": "Logo de Python"
-    },
-    {
-        "img": "../../assets/images/Numpy.png",
-        "alt": "Logo de Numpy"
-    },
-    {
-        "img": "../../assets/images/Pandas.png",
-        "alt": "Logo de Pandas"
-    },
-    {
-        "img": "../../assets/images/Qt.png",
-        "alt": "Logo de Qt"
-    },
-    {
-        "img": "../../assets/images/Java.png",
-        "alt": "Logo de Java"
-    },
-    {
-        "img": "../../assets/images/Spring.png",
-        "alt": "Logo de Spring"
-    },
-    {
-        "img": "../../assets/images/MySQL.png",
-        "alt": "Logo de MySQL"
-    },
-    {
-        "img": "../../assets/images/MongoDB.png",
-        "alt": "Logo de MongoDB"
-    },
-    {
-        "img": "../../assets/images/HTML5.png",
-        "alt": "Logo de HTML5"
-    },
-    {
-        "img": "../../assets/images/CSS3.png",
-        "alt": "Logo de CSS3"
-    },
-    {
-        "img": "../../assets/images/Bootstrap.png",
-        "alt": "Logo de Bootstrap"
-    },
-    {
-        "img": "../../assets/images/Sass.png",
-        "alt": "Logo de Sass"
-    },
-    {
-        "img": "../../assets/images/JavaScript.png",
-        "alt": "Logo de JavaScript"
-    },
-    {
-        "img": "../../assets/images/TypeScript.png",
-        "alt": "Logo de TypeScript"
-    },
-    {
-        "img": "../../assets/images/Angular.png",
-        "alt": "Logo de Angular"
-    },
-    {
-        "img": "../../assets/images/React.png",
-        "alt": "Logo de React"
-    },
-    {
-        "img": "../../assets/images/R.png",
-        "alt": "Logo de R"
-    },
-    {
-        "img": "../../assets/images/Matlab.png",
-        "alt": "Logo de Matlab"
-    },
-    {
-        "img": "../../assets/images/Git.png",
-        "alt": "Logo de Git"
-    },
-    {
-        "img": "../../assets/images/Unity.png",
-        "alt": "Logo de Unity"
-    }
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Arduino.png",
+    "alt": "Logo de Arduino"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Fritzing.png",
+    "alt": "Logo de Fritzing"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Tinkercad.png",
+    "alt": "Logo de Tinkercad"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Python.png",
+    "alt": "Logo de Python"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Numpy.png",
+    "alt": "Logo de Numpy"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Pandas.png",
+    "alt": "Logo de Pandas"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Qt.png",
+    "alt": "Logo de Qt"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Java.png",
+    "alt": "Logo de Java"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Spring.png",
+    "alt": "Logo de Spring"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/MySQL.png",
+    "alt": "Logo de MySQL"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/MongoDB.png",
+    "alt": "Logo de MongoDB"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/HTML5.png",
+    "alt": "Logo de HTML5"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/CSS3.png",
+    "alt": "Logo de CSS3"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Bootstrap.png",
+    "alt": "Logo de Bootstrap"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Sass.png",
+    "alt": "Logo de Sass"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/JavaScript.png",
+    "alt": "Logo de JavaScript"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/TypeScript.png",
+    "alt": "Logo de TypeScript"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Angular.png",
+    "alt": "Logo de Angular"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/React.png",
+    "alt": "Logo de React"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/R.png",
+    "alt": "Logo de R"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Matlab.png",
+    "alt": "Logo de Matlab"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Git.png",
+    "alt": "Logo de Git"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png",
+    "alt": "Logo de GitHub"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Unity.png",
+    "alt": "Logo de Unity"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Adobe_Illustrator.png",
+    "alt": "Logo de Adobe Illustrator"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Camtasia_Studio.png",
+    "alt": "Logo de Camtasia Studio"
+  }
 ]
-
-

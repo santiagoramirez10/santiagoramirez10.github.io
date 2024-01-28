@@ -11,14 +11,7 @@
         "alt": "Desarrollo en Angular",
         "course": "Angular nivel 1",
         "school": "Info Center",
-        "year": "En curso"
-    },
-    {
-        "img": "../../assets/images/Fullstack2.png",
-        "alt": "Desarrollo fullstack",
-        "course": "Curso desarrollador fullstack nivel 2",
-        "school": "IME Escuelas Técnicas",
-        "year": "En curso"
+        "year": "2023"
     },
     {
         "img": "../../assets/images/Backend.png",

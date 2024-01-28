@@ -135,3 +135,39 @@ label{
   text-align: left;
   color: #1D3557;
 }
+.assembly{
+  width: 100%;
+  }
+
+
+  .project-title{
+    text-align: left;
+    font-weight: bold;
+  }
+
+.view-code{
+  width: 150px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border: solid 2px #5C6BBE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #5C6BBE;
+}
+.view-code:hover{
+  border: solid 2px #FFFFFF;
+  background-color: #5C6BBE;
+  color: #FFFFFF;
+}
+
+
+.view-code img{
+  width: 25px;
+  height: 25px;
+}
+

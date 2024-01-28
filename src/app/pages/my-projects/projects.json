@@ -1,6 +1,6 @@
 [
     {
-        "image": "../../assets/images/Arduino.png",
+        "image": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Arduino.png",
         "alt": "Logo de Arduino",
         "language": "Arduino",
         "link": "/arduino-projects"
@@ -12,19 +12,19 @@
         "link": "/html-css-javascript-projects"
     },
     {
-        "image": "../../assets/images/Python.png",
+        "image": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Python.png",
         "alt": "Logo de Python",
         "language": "Python",
         "link": "/python-projects"
     },
     {
-        "image": "../../assets/images/R.png",
+        "image": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/R.png",
         "alt": "Logo de R",
         "language": "R",
         "link": "/r-projects"
     },
     {
-        "image": "../../assets/images/Java.png",
+        "image": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Java.png",
         "alt": "Logo de Java",
         "language": "Java",
         "link": ""

@@ -1,8 +1,8 @@
 <div class="tutorial-title">
-  <img src="../../../assets/images/Arduino.png" alt="Logo de Pyton">
+  <img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Arduino.png" alt="Logo de Arduino">
   <div class="tutorial-description">
     <h3>Semáforo inteligente con Arduino</h3>
-    <h6>Última actualización: 22 enero 2024</h6>
+    <h6>Última actualización: 27 enero 2024</h6>
   </div>
 </div>
 <article>
@@ -12,6 +12,17 @@
   </p>
   <p>Este proyecto nos ayuda a comprender el uso y declaración de variables, los ciclos y las secuencias. Este proyecto
     hace que se mejoren estas competencias y es ideal si apenas comieznas a programar Arduino.</p>
+  <p>Los materiales para este proyecto son pocos, estos son:</p>
+  <ul>
+    <li>1 Arduino UNO (puede ser cualquiera)+cable de datos.</li>
+    <li>1 protoboard.</li>
+    <li>4 cables (puedes usar UTP).</li>
+    <li>1 LED rojo, 1 LED amarillo, 1 LED verde.</li>
+    <li>3 resistencias de 330 Ω o 220 Ω.</li>
+  </ul>
+  <br>
+  <p>A continuación tenemos lo que sería el código para este proyecto:</p>
+
   <pre>
     int LED_Rojo = 10;
     int LED_Amarillo = 11;
@@ -45,6 +56,28 @@
       delay(7000);
     &#125;
 </pre>
-  <p>Con este código tenemos entonces definido el pin para el LED rojo que será el 10, el pin para el LED amarillo es el 11 y el pin para el LED verde es el 12. Se crea una varibale <strong><i>i</i></strong> que es para realizar un ciclo de parpadeo para el LED verde. Se definen los 3 pines de los LED como salida y comienza el ciclo de encendido y apagado de los LED. Se comienza con los 3 LED apagados para evitar errores. Luego, se enciende el LED verde durante 8 segundos, luego se prende y se apaga 300 milisegundos, este parpadeo es de 5 veces. Luego, se enciende el LED amarillo y se apaga el verde, esto durante 2.5 segundos. Finalmente se apaga el LED amarillo y se enciende el LED rojo durante 7 segundos.</p>
+  <p>Con este código tenemos entonces definido el pin para el LED rojo que será el 10, el pin para el LED amarillo es el
+    11 y el pin para el LED verde es el 12. Se crea una varibale <strong><i>i</i></strong> que es para realizar un ciclo
+    de parpadeo para el LED verde. Se definen los 3 pines de los LED como salida y comienza el ciclo de encendido y
+    apagado de los LED. Se comienza con los 3 LED apagados para evitar errores. Luego, se enciende el LED verde durante
+    8 segundos, luego se prende y se apaga 300 milisegundos, este parpadeo es de 5 veces. Luego, se enciende el LED
+    amarillo y se apaga el verde, esto durante 2.5 segundos. Finalmente se apaga el LED amarillo y se enciende el LED
+    rojo durante 7 segundos.</p>
   <p>Este es el montaje para el proyecto:</p>
+  <img class="assembly"
+    src="https://raw.githubusercontent.com/santiagoramirez10/Proyectos_Arduino/main/Semaforo/Semaforo.png"
+    alt="Montaje de semáforo inteligente con Arduino">
+  <p>En el montaje tenemos entonces una línea con el GND del Arduino conectada en la parte inferior, esta línea es para
+    sacar 3 ramas hacia los cátodos de los LED que son las patas negativas; como se mencionó en el código, el LED rojo
+    va al pin digital 10, el LED amarillo va al pin digital 11 y el LED verde va al pin digital 12. Es importante que
+    cada LED tenga una resistencia para protegerse, en mi caso uso resistencias de 330 Ω conectadas entre el cátodo del
+    LED (pata negativa y más corta) y la GND del Arduino.</p>
+  <p>Si no tienes un Arduino puedes intentarlo en la plataforma Tinkercad, en este <a
+      href="https://bit.ly/tinkercad_semaforo_arduino" target="_blank"><strong><i>link</i></strong></a> podrás encontrar
+    el proyecto para copiarlo o crearlo desde 0.</p>
+    <p>Tutorial de este proyecto:</p>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=8xi1C1QoR4s&t" target="_blank"><strong><i>Semáforo inteligente con Arduino.</i></strong></a></li>
+      <li><a href="https://www.youtube.com/watch?v=ft2BLKFHg5k" target="_blank"><strong><i>Semáforo inteligente en Tinkercad.</i></strong></a></li>
+    </ul>
 </article>

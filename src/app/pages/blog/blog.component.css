@@ -22,15 +22,12 @@
 
 .my-blogs img:hover {
   transform: scale(1.1);
-
 }
 
 
 .blog-content {
   padding: 15px;
-
 }
-
 
 .blog-content .author-img {
   width: 25px;
@@ -42,3 +39,4 @@
   flex-wrap: wrap;
   justify-content: left;
 }
+

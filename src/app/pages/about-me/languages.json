@@ -80,8 +80,16 @@
     "alt": "Logo de R"
   },
   {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/RStudio.png",
+    "alt": "Logo de RStudio"
+  },
+  {
     "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Matlab.png",
     "alt": "Logo de Matlab"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Scilab.png",
+    "alt": "Logo de Scilab"
   },
   {
     "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Git.png",
@@ -94,6 +102,22 @@
   {
     "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Unity.png",
     "alt": "Logo de Unity"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/AutoCAD.png",
+    "alt": "Logo de AutoCAD"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/AutoCAD_Electrical.png",
+    "alt": "Logo de AutoCAD Electrical"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/EAGLE.png",
+    "alt": "Logo de EAGLE"
+  },
+  {
+    "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/LTspice.png",
+    "alt": "Logo de LTspice"
   },
   {
     "img": "https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/Adobe_Illustrator.png",

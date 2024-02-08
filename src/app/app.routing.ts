@@ -35,4 +35,4 @@ const appRoutes = [
     {path: "semaforo-inteligente-arduino", component: SemaforoInteligenteArduinoComponent},
     { path: '**', component: PageNotFoundComponent }
 ];
-export const routing = RouterModule.forRoot(appRoutes);
+export const routing = RouterModule.forRoot(appRoutes, { scrollPositionRestoration: 'top' });

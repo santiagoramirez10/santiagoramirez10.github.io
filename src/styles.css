@@ -147,7 +147,7 @@ label{
 
 .view-code{
   width: 150px;
-  background-color: #FFFFFF;
+  background-color: #F1FAEE;
   border-radius: 20px;
   border: solid 2px #5C6BBE;
   display: flex;
@@ -160,12 +160,10 @@ label{
   color: #5C6BBE;
 }
 .view-code:hover{
-  border: solid 2px #FFFFFF;
+  border: solid 2px #F1FAEE;
   background-color: #5C6BBE;
-  color: #FFFFFF;
+  color: #F1FAEE;
 }
-
-
 .view-code img{
   width: 25px;
   height: 25px;

@@ -1,1 +1,99 @@
 <h1 id="h1-projects-arduino">Proyectos en Arduino</h1>
+<div id="" class="project-arduino">
+  <h3 class="project-title">Clave de acceso</h3>
+  <p>Se establece un sistema de ingreso de clave mediante un teclado matricial 4x4 y una pantalla LCD, utilizando
+    Arduino. Al presionar las teclas del teclado, la pantalla muestra asteriscos para ocultar la clave ingresada. Si la
+    clave es correcta, se muestra el mensaje "---Bienvenido---"; de lo contrario, se indica "Acceso denegado" y se
+    permite ingresar una nueva clave al presionar "C".</p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/Clave_acceso"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">DHT11-Sensor de temperatura y humedad</h3>
+  <p>Se implementa la lectura de temperatura y humedad utilizando un sensor DHT11 en Arduino. Se configura la comunicación
+    serial y se imprime un mensaje indicando el inicio de la lectura de datos. Luego, en el bucle principal, se lee la
+    humedad y la temperatura utilizando el método read11() del sensor DHT11. Los valores obtenidos se imprimen por medio
+    de la comunicación serial cada 5 segundos, mostrando el porcentaje de humedad y la temperatura en grados Celsius.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/DHT11"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">DS18B20-Sensor de temperatura</h3>
+  <p>Lectura de temperatura utilizando un sensor DS18B20 mediante el protocolo OneWire en Arduino. Se inicializan las
+    comunicaciones serie y el sensor, y en el bucle principal se solicita la temperatura al sensor y se imprime por el
+    puerto serie en grados Celsius. Se incluyen retardos de 1 segundo entre cada lectura.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/DS18B20"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">Display 7 segmentos 1 puesto ánodo común</h3>
+  <p>Se configura un conjunto de pines en Arduino para controlar un display de siete segmentos y mostrar números del 0
+    al 9. Se definen los pines correspondientes a los segmentos del display y se inicializan como salidas. Luego, en el
+    bucle principal, se apaga el display para evitar errores y se activan los segmentos correspondientes para mostrar
+    cada número del 0 al 9 en intervalos de un segundo. Cada función (cero(), uno(), ..., nueve()) enciende los
+    segmentos necesarios para representar el número respectivo.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/Display7S1P"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">HCSR04-Sensor de distancia ultrasonido</h3>
+  <p>Sensor de ultrasonido conectado a un Arduino para medir distancias. Se utiliza un pin para enviar señales de
+    disparo al sensor y otro pin para recibir el eco de vuelta. En el bucle principal, se realiza un disparo breve al
+    sensor, se mide la duración del eco de retorno y se calcula la distancia en centímetros. Esta distancia se imprime
+    por el puerto serial cada segundo.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/HCSR04"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">Joystick con display LCD 16x2</h3>
+  <p>Se configura una pantalla LCD con interfaz I2C y un joystick conectado a los pines analógicos A0 y A1 del Arduino
+    para controlar las posiciones X e Y, respectivamente. En el bucle principal, se lee el valor analógico de los pines
+    A0 y A1 para determinar las posiciones X e Y del joystick. Luego, se muestra en la pantalla LCD la dirección en la
+    que se inclina el joystick. Por ejemplo, si X es menor que 150, se muestra "Izquierda"; si es mayor que 850, se
+    muestra "Derecha"; y si está entre 400 y 550, se muestra "Centro". Lo mismo se aplica para la dirección Y. El valor
+    de la dirección Y también se imprime por el puerto serial. El programa espera un segundo antes de actualizar la
+    pantalla LCD.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/Joystick_LCD"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">Keypad 4x4 o teclado membrana</h3>
+  <p>
+    Configuración de un teclado de 4x4 utilizando la biblioteca Keypad. Se definen las filas y columnas del teclado, así
+    como los pines a los que están conectados. Luego se crea un arreglo bidimensional que representa las teclas del
+    teclado. En el bucle principal, se escanea el teclado y se imprime en el puerto serial la tecla presionada cuando se
+    detecta una pulsación. Esto permite monitorear las teclas presionadas en el teclado numérico o de función.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/Keypad4x4"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">LCD 16x2-Pantalla</h3>
+  <p>
+    <i>Hola mundo en</i> una pantalla LCD de 16x2 utilizando la biblioteca LiquidCrystal. Se especifican los pines a los que están conectados los diferentes pines de la pantalla LCD (RS, EN, D4, D5, D6 y D7). En la función setup(), se inicializa la pantalla LCD con el número de columnas y filas. En el bucle principal loop(), se establece el cursor en la posición (0, 0) y se imprime "Hola mundo" en la primera línea de la pantalla. Luego, se establece el cursor en la posición (0, 1) y se imprime "Hello world" en la segunda línea de la pantalla. Esto permite mostrar dos mensajes diferentes en la pantalla LCD.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/Keypad4x4"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>
+<div id="" class="project-arduino">
+  <h3 class="project-title">LED encendido mediante fotocelda</h3>
+  <p>
+    Se configura un LED para el encendido automático mediante la ausencia de luz. En el bucle principal loop(), el programa lee los valores analógicos del potenciómetro y la fotorresistencia utilizando las funciones analogRead(). Si el valor de la fotorresistencia es mayor que el valor del potenciómetro, se enciende el LED utilizando digitalWrite(LED, HIGH), de lo contrario, se apaga utilizando digitalWrite(LED, LOW). La fotocelda al estar expuesta a la luz disminuye su resistencia y a medida que es menos expuesta la resistencia va aumentando, es por esto que se usa un potenciómetro para calibrar como desee el usuario según sus necesidades.
+  </p>
+  <a class="view-code" href="https://github.com/santiagoramirez10/Proyectos_Arduino/tree/main/LED_Fotocelda"
+    target="_blank"><img src="https://raw.githubusercontent.com/santiagoramirez10/Iconos/main/GitHub.png">Ver
+    código</a><br>
+</div>

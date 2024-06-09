@@ -21,6 +21,7 @@ import { FechaHoraAleatoriaPythonComponent } from './pages/blogs/fecha-hora-alea
 import { AgeOfEmpiresiiDefinitiveEditionComponent } from './pages/blogs/age-of-empiresii-definitive-edition/age-of-empiresii-definitive-edition.component';
 import { PortfolioSs2Component } from './pages/blogs/portfolio-ss2/portfolio-ss2.component';
 import { SemaforoInteligenteArduinoComponent } from './pages/blogs/semaforo-inteligente-arduino/semaforo-inteligente-arduino.component';
+import { EticaInteligenciaArtificialComponent } from './pages/blogs/etica-inteligencia-artificial/etica-inteligencia-artificial.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { SemaforoInteligenteArduinoComponent } from './pages/blogs/semaforo-inte
     AgeOfEmpiresiiDefinitiveEditionComponent,
     PortfolioSs2Component,
     SemaforoInteligenteArduinoComponent,
+    EticaInteligenciaArtificialComponent,
   ],
   imports: [
     BrowserModule, routing, FormsModule

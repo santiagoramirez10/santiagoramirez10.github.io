@@ -1,5 +1,13 @@
 [
   {
+    "title": "¿Es ético que la Inteligencia Artificial tome decisiones que afecten a los humanos?",
+    "description": "",
+    "image": "../../assets/images/cerebro_ia.png",
+    "alt": "Cerebro de una Inteligencia Artificial",
+    "link": "/etica-de-la-inteligencia-artificial",
+    "date": "09/06/24"
+  },
+  {
     "title": "Semáforo inteligente con Arduino",
     "description": "Simulación de un semáforo de tránsito, usando LED de color rojo, amarillo y verde",
     "image": "../../assets/images/semaforo_arduino.png",
